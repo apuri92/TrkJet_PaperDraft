@@ -1,3 +1,10 @@
+2019-04-14
+	* first commit with all files
+	* added get_paper_plots.sh script
+	* GitHub link: https://github.com/apuri92/TrkJet_PaperDraft
+
+
+----------------------------------------------------------------------------
 2019-03-19  Ian Brock  <Ian.Brock@cern.ch>
 	* Tag as version 07-02-00.
 	* February update of publications.

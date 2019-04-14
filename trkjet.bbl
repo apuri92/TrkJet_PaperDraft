@@ -172,6 +172,33 @@
     \field{year}{2017}
   \endentry
 
+  \entry{2019108}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         family_i={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.physletb.2018.10.076
+    \endverb
+    \field{issn}{0370-2693}
+    \field{pages}{108 \bibrangedash  128}
+    \field{title}{Measurement of the nuclear modification factor for inclusive
+  jets in Pb+Pb collisions at $\sqrt{{s}_{NN}}=5.02$?TeV with the ATLAS
+  detector}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S037026931830995X
+    \endverb
+    \field{volume}{790}
+    \field{journaltitle}{Physics Letters B}
+    \field{year}{2019}
+  \endentry
+
   \entry{Aad:2010bu}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -393,6 +420,38 @@
     \field{year}{2017}
   \endentry
 
+  \entry{PhysRevC.98.024908}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CA}{%
+         family={Collaboration},
+         family_i={C\bibinitperiod},
+         given={ATLAS},
+         given_i={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{CA1}
+    \strng{fullhash}{CA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevC.98.024908
+    \endverb
+    \field{issue}{2}
+    \field{pages}{024908}
+    \field{title}{Measurement of jet fragmentation in Pb+Pb and $pp$ collisions
+  at $\sqrt{{s}_{NN}}=5.02$ TeV with the ATLAS detector}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevC.98.024908
+    \endverb
+    \field{volume}{98}
+    \field{journaltitle}{Phys. Rev. C}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Khachatryan:2016tfj}{article}{}
     \name{author}{1}{}{%
       {{hash=C}{%
@@ -467,11 +526,16 @@
     \verb{doi}
     \verb 10.1142/S0218301315300143, 10.1142/9789814663717_0007
     \endverb
+    \verb{eprint}
+    \verb 1511.00790
+    \endverb
     \field{number}{11}
     \field{pages}{1530014}
     \field{title}{{Jet quenching in high-energy heavy-ion collisions}}
     \field{volume}{24}
     \field{journaltitle}{Int. J. Mod. Phys.~E}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
     \field{year}{2015}
   \endentry
 
@@ -614,6 +678,35 @@
     \verb http://cds.cern.ch/record/1451888
     \endverb
     \field{year}{2012}
+  \endentry
+
+  \entry{Aaboud:2017tql}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         family_i={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-018-5605-7
+    \endverb
+    \verb{eprint}
+    \verb 1709.02301
+    \endverb
+    \field{number}{2}
+    \field{pages}{142}
+    \field{title}{{Measurement of longitudinal flow de-correlations in Pb+Pb
+  collisions at $\sqrt{s_\mathrm{NN}} = 2.76$ and 5.02 TeV with the ATLAS
+  detector}}
+    \field{volume}{78}
+    \field{journaltitle}{Eur. Phys. J.~C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{nucl-ex}
+    \field{year}{2018}
   \endentry
 
   \entry{Nason:2004rx}{article}{}
@@ -822,35 +915,6 @@
     \field{year}{2010}
   \endentry
 
-  \entry{Aaboud:2017tql}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A2}
-    \strng{fullhash}{A2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1140/epjc/s10052-018-5605-7
-    \endverb
-    \verb{eprint}
-    \verb 1709.02301
-    \endverb
-    \field{number}{2}
-    \field{pages}{142}
-    \field{title}{{Measurement of longitudinal flow de-correlations in Pb+Pb
-  collisions at $\sqrt{s_\mathrm{NN}} = 2.76$ and 5.02 TeV with the ATLAS
-  detector}}
-    \field{volume}{78}
-    \field{journaltitle}{Eur. Phys. J.~C}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{nucl-ex}
-    \field{year}{2018}
-  \endentry
-
   \entry{ATLAS:2012at}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -977,23 +1041,24 @@
     \field{year}{2017}
   \endentry
 
-  \entry{ATLAS-CONF-2016-105}{report}{}
+  \entry{ATLAS-CONF-2016-105}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         family_i={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{number}{ATLAS-CONF-2016-105}
+    \field{howpublished}{{ATLAS-CONF-2016-105}}
     \field{title}{{Measurement of the azimuthal anisotropy of charged particles
-  produced in 5.02~TeV Pb+Pb collisions with the ATLAS detector}}
+  in \(5.02~\text{TeV}\) Pb+Pb collisions with the ATLAS detector}}
     \verb{url}
     \verb https://cds.cern.ch/record/2220372
     \endverb
-    \list{location}{1}{%
-      {Geneva}%
-    }
-    \list{institution}{1}{%
-      {CERN}%
-    }
-    \field{type}{techreport}
     \field{year}{2016}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{DAgostini:1994zf}{article}{}
@@ -1237,38 +1302,6 @@
     \verb https://cds.cern.ch/record/2140460
     \endverb
     \field{year}{2016}
-  \endentry
-
-  \entry{PhysRevC.98.024908}{article}{}
-    \name{author}{1}{}{%
-      {{hash=CA}{%
-         family={Collaboration},
-         family_i={C\bibinitperiod},
-         given={ATLAS},
-         given_i={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Physical Society}%
-    }
-    \strng{namehash}{CA1}
-    \strng{fullhash}{CA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevC.98.024908
-    \endverb
-    \field{issue}{2}
-    \field{pages}{024908}
-    \field{title}{Measurement of jet fragmentation in Pb+Pb and $pp$ collisions
-  at $\sqrt{{s}_{NN}}=5.02$ TeV with the ATLAS detector}
-    \verb{url}
-    \verb https://link.aps.org/doi/10.1103/PhysRevC.98.024908
-    \endverb
-    \field{volume}{98}
-    \field{journaltitle}{Phys. Rev. C}
-    \field{year}{2018}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{ATL-GEN-PUB-2016-002}{booklet}{}

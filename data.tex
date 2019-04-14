@@ -1,15 +1,25 @@
-% !TEX root = trackjet.tex
+% !TEX root = trkjet.tex
 
 The \PbPb\ and \pp\ data used in this analysis were recorded in 2015.
- The data samples consist of 25~pb$^{-1}$ of \sqrts~=~5.02~\TeV\ \pp\ data and 0.49~nb$^{-1}$ of \sqrtsnn~=~5.02~\TeV\
-\pbpb\ data. The MB
-\PbPb\ sample was recorded with different pre-scales\footnote{The pre-scale indicates which fraction of events that passed the trigger selection was selected for recording by the data  acquisition.}  depending on the instantaneous luminosity in the
-LHC fill. The MB trigger recorded an effective luminosity of 22 $\mu$b$^{-1}$.
-In \pbpb\ and \pp\ collisions, events are required to have a reconstructed vertex
+ The data samples consist of 25~pb$^{-1}$ of \sqrts~=~5.02~\TeV\ \pp\ and 0.49~nb$^{-1}$ of \sqrtsnn~=~5.02~\TeV\
+\pbpb\ data. In both samples, events are required to have a reconstructed vertex
 within 150~mm of the nominal interaction point along the beam axis.
 Only events taken during stable beam conditions and satisfying detector and data-quality requirements that include the calorimeters and inner tracking detectors being in nominal operating conditions are considered. 
 
-A sample of 1.8~$\times10^{7}$ simulated 5.02~\TeV\ \powheg{}+\pythiaeight~\cite{Nason:2004rx,Sjostrand:2014zea} \pp\ hard-scattering events, generated using the A14 tune~\cite{ATLAS2014021} and the NNPDF23LO PDF set~\cite{Ball:2012cx}, is used to evaluate the performance for measuring \Dptr\ distributions in the \pp\ data. The performance of the detector and analysis procedure in \PbPb\ collisions is evaluated using 1.8~$\times10^{7}$ 5.02~\TeV\ hard-scattering dijet events generated with \powheg{}+\pythiaeight\ overlaid on top of events from the enhanced minimum-bias \PbPb\ data sample. In both samples, the detector response is simulated using \textsc{Geant}4~\cite{Agostinelli:2002hh,Aad:2010ah}.
+%The MB
+%\PbPb\ sample was recorded with different pre-scales\footnote{The pre-scale indicates which fraction of events that passed the trigger selection was selected for recording by the data  acquisition.}  depending on the instantaneous luminosity in the
+%LHC fill. The MB trigger recorded an effective luminosity of 22 $\mu$b$^{-1}$.
+
 
 In \PbPb\ collisions, the event centrality reflects the overlap area of the two colliding nuclei and is characterized by \ETfcal, the total transverse energy deposited in the 
-FCal~\cite{Aaboud:2017tql}. The six centrality intervals used in this analysis are defined according to successive percentiles of the \ETfcal\ distribution obtained in minimum-bias collisions, ordered from the most central (highest \ETfcal) to the most peripheral (lowest \ETfcal) collisions: 0--10\%, 10--20\%, 20--30\%, 30--40\%, 40--60\%, 60--80\%. A weight is assigned to each MC event such that the event sample obtained from the simulation has the same \ETfcal\ distribution as in data.
+FCal~\cite{Aaboud:2017tql}. The six centrality intervals used in this analysis are defined according to successive percentiles of the \ETfcal\ distribution obtained in minimum-bias collisions, ordered from the most central (highest \ETfcal) to the most peripheral (lowest \ETfcal) collisions: 0--10\%, 10--20\%, 20--30\%, 30--40\%, 40--60\%, 60--80\%. 
+
+In addition to the jet-triggered sample, a separate minimum bias \PbPb\ data sample was recorded with three trigger selections: the minimum-bias trigger and two total transverse-energy triggers with thresholds of 1.5 TeV and 6.5 TeV used to enhance the rate of central \pbpb\ events. This sample was overlaid on a set of $1.8\times10^7$ 5.02 TeV hard-scattering dijet \pp\ events generated with \powheg{}+\pythiaeight\ \cite{Nason:2004rx,Sjostrand:2014zea} using the A14 tune of parameters \cite{ATLAS2014021} and the NNPDF23LO PDF set \cite{Ball:2012cx}. Each event was reweighed such that the minimum bias sample had the same centrality distribution as in the jet triggered sample.
+A separate set of $1.8\times10^7$ 5.02 TeV hard-scattering dijet \pp\ events generated with the same tune and PDFs was used as the \pp\ MC. Both MC samples simulated the detector response using \textsc{Geant4} \cite{Agostinelli:2002hh,Aad:2010ah} and were used to evaluate the performance of the detector and analysis procedure. 
+
+Another sample of \pbpb\ events generated using HIJING (version 1.38b) \cite{Aad:2010ah} is also used to evaluate the track reconstruction performance.
+
+
+%A sample of 1.8~$\times10^{7}$ simulated 5.02~\TeV\ \powheg{}+\pythiaeight~\cite{Nason:2004rx,Sjostrand:2014zea} \pp\ hard-scattering events, generated using the A14 tune~\cite{ATLAS2014021} and the NNPDF23LO PDF set~\cite{Ball:2012cx}, is used to evaluate the performance for measuring \Dptr\ distributions in the \pp\ data. The performance of the detector and analysis procedure in \PbPb\ collisions is evaluated using 1.8~$\times10^{7}$ 5.02~\TeV\ hard-scattering dijet events generated with \powheg{}+\pythiaeight\ overlaid on top of events from the enhanced minimum-bias \PbPb\ data sample. In both samples, the detector response is simulated using \textsc{Geant}4~\cite{Agostinelli:2002hh,Aad:2010ah}. A weight is assigned to each MC event such that the event sample obtained from the simulation has the same \ETfcal\ distribution as in jet triggered data.
+
+
