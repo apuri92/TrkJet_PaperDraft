@@ -1,0 +1,88 @@
+% !TEX root = trackjet.tex
+
+The following sources of systematic uncertainty are considered:
+the jet energy scale (JES), the jet energy resolution (JER), 
+the sensitivity of the  unfolding to the prior, the UE contribution, the residual non-closure of the analysis procedure, and tracking-related uncertainties.
+For each systematic variation, the \Dptr\ distributions and their ratios are re-evaluated. The difference between the varied and nominal distributions is used as an estimate of the uncertainty.
+
+The systematic uncertainty due to the JES in \PbPb\ collisions is composed of two parts: 
+a centrality-independent baseline component and a centrality-dependent component. Only the centrality-independent baseline component is used in \pp\ collisions; 
+it is determined from \textit{in-situ} studies of the calorimeter
+response~\cite{Aad:2011he,HIjesnote,Run2jetpubnote} and the relative energy scale difference between the jet reconstruction procedure in heavy-ion collisions~\cite{HIjesnote} and the procedure used in \pp\ collisions~\cite{Aad:2014bia}. The centrality-dependent uncertainty reflects a modification of parton showers by the \PbPb\ environment. It is evaluated by comparing calorimeter \ptjet\ and the sum of \pt\ of tracks within the jet in data and MC. The size of the centrality-dependent uncertainty on the JES reaches 0.5\% in the most central collisions. Each component that contributes to the JES uncertainty is varied separately by $\pm1$ standard deviation for each interval in \ptjet\ and the response matrix is recomputed accordingly. The data are unfolded with modified matrices. The resulting uncertainty from the JES increases with increasing charged-particle \pT\ at fixed \ptjet\ and decreases with increasing \ptjet, and is at the level of 2--4\%.
+
+The uncertainty on the \Dptr\ distributions due to the JER is evaluated by repeating the unfolding procedure with modified response matrices, where an additional contribution is added to the resolution of the reconstructed \ptjet\ using a Gaussian smearing procedure. The smearing factor is evaluated using an \textit{in-situ} technique in 13~\TeV\ \pp\ data involving studies of dijet energy balance~~\cite{Aad:2012ag,JERConfNote}. An additional uncertainty is included to account for differences between the tower-based jet reconstruction and that used in analyses of 13~\TeV\ \pp\ data. The resulting uncertainty from the JER is symmetrized to account for negative variations of the JER.  The size of the resulting uncertainty on the \Dptr\ distributions due to the JER typically reaches 4--5\% for the highest charged-particle \pT\ intervals and decreases to 2--3\% with decreasing charged-particle \pT\ at fixed \ptjet.
+
+The systematic uncertainty on the unfolding procedure is estimated by generating the response matrices from the MC distributions without any re-weighting to match shapes in data. Conservatively, the difference between the nominal \Dptr\ distribution and \Dptr\ unfolded with the re-weighted response matrices is taken as the systematic uncertainty, and is at the level of 5--7\%.
+
+The systematic uncertainty associated with the UE subtraction has two components: the statistical uncertainty on the charged particle distributions estimated in the MC overlay, and the comparison to the cone method (described in detail in Ref.~\cite{Aaboud:2017bzv}). The default method is limited by the finite statistics of the minimum bias data collected and the cone method is sensitive to hard scattering induced biases in the UE. The UE estimate from the default method requires centrality reweighing, whereas the estimate from the cone method matches the centrality distribution of the jet sample by construction. The UE uncertainty on the \Dptr\ distributions is approximately 40\% at the largest distances from the jet axis and rapidly decreases with increasing charged-particle \pT\ and decreasing distance. This is the dominant source of the systematic uncertainty at low charged-particle \pt\ and large \rvar.
+
+
+%The systematic uncertainty associated with the estimation of the UE contribution to the \Dptr\ distributions is determined by comparing the nominal measurement that uses the default UE subtraction method, to that with an alternative UE estimation method. The alternative UE estimation method applied for this comparison uses random cones. It was developed and exploited in previous measurements of jet fragmentation functions, and is described in detail in Ref.~\cite{Aaboud:2017bzv}. Both the default and random cone methods are fully data driven, and are sensitive to different phenomena. The former (described in Section \ref{sec:analysis}) is evaluated in MB triggered \PbPb\ data samples by averaging over all MB events recorded during the \PbPb\ run, whereas the latter evaluates the UE in the same events as in the analysis. The cone method is also sensitive to hard scattering induced biases in the UE. Furthermore, the default estimation method is insensitive to fluctuations in detector conditions since the MB data is recorded over a long time period. Also, the centrality distribution of events entering the UE estimate is different for both methods: the default method has a flat centrality distribution which is then subsequently reweighted, while the cone method by definition, has the same centrality distribution as the jet sample. The resulting uncertainty in \Dptr\ distributions is smaller than 15\% and rapidly decreases with increasing charged-particle \pT.  This is the dominant source of the systematic uncertainty at low charged-particle \pt\ and large \rvar.
+
+
+The uncertainties related to track reconstruction and selection originate from several sources.
+Uncertainties related to the material description in simulation and the track transverse 
+momentum resolution are obtained from studies in data and simulation described in Ref.~\cite{ATL-PHYS-PUB-2015-051}.
+The systematic uncertainty in the fake track rate is 30\% in both collision systems~\cite{ATL-PHYS-PUB-2015-051}.  The contamination of fake tracks is less than 2\% and the resulting uncertainty in the \Dptr\ distributions is at most 5\%.
+The sensitivity of the tracking efficiency to the description of the 
+inactive material in the MC samples is evaluated by varying the material description.
+This resulting uncertainty in the track reconstruction efficiency is between
+0.5\% and 2\% in the track \pT\ range used in the analysis. 
+An additional uncertainty takes into account a possible residual misalignment of the tracking detectors
+in \pp\ and \PbPb\ data-taking. The alignment in these datasets is checked \textit{in-situ} with $Z\rightarrow \mu^{+}\mu^{-}$ events, and thus a track-\pT\-dependent uncertainty arises from the finite size of this sample. The resulting uncertainties in
+the \Dptr\ distributions are typically less than 0.1\%. An additional  uncertainty in the tracking efficiency due to the high local track density in the core of jets is 0.4\%~\cite{ATL-PHYS-PUB-2016-007} for all \ptjet\ ranges in this analysis. The uncertainty due to the track selection is evaluated by repeating the analysis with an additional requirement on the significance of the distance of closest approach of the track to the primary vertex. This uncertainty affects 
+the track reconstruction efficiencies, track momentum resolution, and rate of fake tracks. The resulting uncertainty typically varies between 1--2\%.
+Finally, the track-to-particle association requirements are varied. This variation affects the track reconstruction efficiency, track momentum resolution, and rate of fake tracks. The resulting systematic uncertainty is $\leq~0.1 \%$ on the \Dptr\ distributions. All track-related systematic uncertainties are added in quadrature and presented as total tracking uncertainty. 
+
+Conservatively, an additional uncertainty to account for possible residual limitations in the analysis procedure is assigned by evaluating the non-closure of the unfolded distributions in simulations, as described in Section~\ref{sec:analysis}. 
+
+Examples of systematic uncertainties in the \Dptr\ distributions for jets in the 126--158~\GeV\ \ptjet\ 
+range measured in \pp\ and \pbpb\ collision systems are shown in Figure~\ref{fig:Systematics_Dpt}. The uncertainties on the \RDptr\ and  $\Delta\Dptr$ distributions are shown in Figure~\ref{fig:Systematics_RDpT} and Figure~\ref{fig:Systematics_DeltaDpT} respectively.
+
+The correlations between the various systematic components are considered in evaluating the \RDptr\ and $\Delta\Dptr$ distributions. The unfolding and non-closure uncertainty are taken to be uncorrelated between \pp\ and \pbpb\ collisions and are combined as per the standard error propagation techniques:
+\begin{align}
+\delta \RDptr = \RDptr \sqrt{\left(\frac{\delta \Dptr_{\pbpb}}{\Dptr_{\pbpb}}\right)^2 + \left(\frac{\delta \Dptr_{\pp}}{\Dptr_{\pp}}\right)^2} \\
+\delta \Delta\Dptr =  \sqrt{\left(\delta \Dptr_{\pbpb}\right)^2 + \left(\delta \Dptr_{\pp}\right)^2}
+\end{align}
+All other uncertainties are taken to be correlated. For these, the \RDptr\ and $\Delta\Dptr$ distributions are re-evaluated by applying the variation to both collision systems; the resulting variations of the ratios from their central values are used as the correlated systematic uncertainty. 
+
+
+\begin{figure}
+\centerline{
+\begin{tabular}{cc}
+\includegraphics[width=0.55\textwidth]{figures/systematics/ChPS_dR_sys_pp_error_trk2_jet7_cent6} &
+\includegraphics[width=0.55\textwidth]{figures/systematics/ChPS_dR_sys_pp_error_trk6_jet7_cent6} \\
+\includegraphics[width=0.55\textwidth]{figures/systematics/ChPS_dR_sys_PbPb_error_trk2_jet7_cent0} &
+\includegraphics[width=0.55\textwidth]{figures/systematics/ChPS_dR_sys_PbPb_error_trk6_jet7_cent0} \\
+\end{tabular}}
+\caption{
+Relative size of the systematic uncertainties for \Dptr\ distributions in \pp\ (top) and central (0-10\%) \pbpb\ ~(bottom) collisions for tracks in the \pt\ range 1.0--1.6 \GeV\ ~(left) and 6.3--10.0 \GeV\ ~(right), in jets with $126 < \ptjet < 158$ \GeV. The systematic uncertainties due to JES, JER, unfolding, UE contribution, MC non-closure and tracking are shown along with the total systematic uncertainty from all sources.
+}
+\label{fig:Systematics_Dpt}
+\end{figure}
+
+\begin{figure}
+\centerline{
+\begin{tabular}{cc}
+\includegraphics[width=0.55\textwidth]{figures/systematics/RDpT_dR_sys_error_trk2_jet7_cent0} &
+\includegraphics[width=0.55\textwidth]{figures/systematics/RDpT_dR_sys_error_trk2_jet7_cent0} \\
+\end{tabular}}
+\caption{
+Relative size of the systematic uncertainties for \RDptr\ distributions for 0-10\% \pbpb\ collisions, for tracks in the \pt\ range 1.0--1.6 \GeV\ (left) and 6.3--10.0 \GeV\ (right), in jets with $126 < \ptjet < 158$ \GeV. The systematic uncertainties due to JES, JER, unfolding, UE contribution, MC non-closure and tracking are shown along with the total systematic uncertainty from all sources.
+}
+\label{fig:Systematics_RDpT}
+\end{figure}
+
+\begin{figure}
+\centerline{
+\begin{tabular}{cc}
+\includegraphics[width=0.55\textwidth]{figures/systematics/DeltaDpT_dR_sys_error_trk3_jet7_cent0} &
+\includegraphics[width=0.55\textwidth]{figures/systematics/DeltaDpT_dR_sys_error_trk6_jet7_cent0} \\
+\end{tabular}}
+\caption{
+Relative size of the systematic uncertainties for $\Delta\Dptr$ distributions for 0-10\% \pbpb\ collisions, for tracks in the \pt\ range 1.0--1.6 \GeV\ (left) and 6.3--10.0 \GeV\ (right), in jets with $126 < \ptjet < 158$ \GeV. The systematic uncertainties due to JES, JER, unfolding, UE contribution, MC non-closure and tracking are shown along with the total systematic uncertainty from all sources.
+}
+\label{fig:Systematics_DeltaDpT}
+\end{figure}
+
+

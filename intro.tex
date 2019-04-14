@@ -1,0 +1,52 @@
+% !TEX root = trkjet.tex
+
+Ultra-relativistic nuclear collisions at the Large Hadron Collider (LHC) produce hot, dense matter
+called the quark-gluon plasma, QGP (see Refs.~\cite{Roland:2014jsa,Busza:2018rrf} for recent reviews).
+Hard-scattering processes occurring in these collisions produce jets which
+traverse and interact with the QGP. The comparison between the rates and the characteristics of these jets when produced in heavy-ion or \pp\ collisions provides information on the properties of the QGP.
+
+Jets with large transverse momenta are observed to be produced in central lead-lead (\pbpb) collisions at the LHC at a rate that is reduced by a factor of two with respect to the expectation from these cross sections measured in \pp\ interactions, re-scaled by the nuclear overlap function of \pbpb\ collisions~\cite{Abelev:2013kqa,Aad:2014bxa,Khachatryan:2016jfl}. 
+%The rates of jet production are observed to be reduced by  approximately a factor of two in lead-lead~(\PbPb) collisions at LHC energies compared to  expectations from the jet production cross sections measured in \pp\ interactions scaled by the nuclear overlap function of \PbPb\ collisions~\cite{Abelev:2013kqa,Aad:2014bxa,Khachatryan:2016jfl}. 
+%This reduction is termed ``jet-quenching'' and is due to the interaction of
+%constituents of the parton shower with the QGP.  
+Similarly, back-to-back dijet~\cite{Aad:2010bu,Chatrchyan:2011sx,Aaboud:2017eww} 
+and photon-jet pairs~\cite{Chatrchyan:2012gt} are observed to have
+unbalanced transverse momenta in \pbpb\ collisions compared to \pp\ collisions.
+These observations suggest that some of the energy from the hard-scattered parton is
+transferred outside of the jet through its interaction with the QGP.  
+
+Also of interest are measurements sensitive to the distributions of particles
+within the jet.  Measurements of the jet shape~\cite{Chatrchyan:2013kwa} and  the longitudinal fragmentation functions~\cite{Aad:2014wha,Chatrchyan:2014ava,Aaboud:2017bzv} were performed in 2.76~\TeV\ \pbpb\
+collisions.
+These measurements show an excess of both low and high momentum particles inside the jet compared to \pp\ collisions.
+Particles carrying a large fraction of the jet momentum are generally closely
+aligned with the jet axis, whereas low momentum particles can have a much broader
+angular distribution extending outside the jet \cite{Khachatryan:2016tfj,Sirunyan:2018jqr}. 
+Fragmentation function measurements have shown that particles with transverse momentum, \pT,
+less than 4~\GeV\
+are enhanced in \pbpb\ collisions compared to \pp\ collisions~\cite{Aaboud:2017bzv}.
+These observations suggest that the energy lost by jets through the jet-quenching process is being transferred to soft particles within and around the jet~\cite{Qin:2015srf,Blaizot:2014ula}. Measurements of yields of these particles as a function of transverse momentum and
+distance between the particle and the jet axis have a potential to constrain
+the models of jet energy loss processes in \pbpb\ collisions.
+
+This note presents a measurement of charged particle \pt\ distributions inside and around jets. The measured yields are defined as\footnote{ATLAS uses a right-handed coordinate system with its origin at the nominal interaction point (IP) in the center of the detector, and the $z$-axis along the beam pipe. The $x$-axis points from the IP to the center of the LHC ring, and the $y$-axis points upward. Cylindrical coordinates $(r, \phi)$ are used the transverse plane, $\phi$ being the azimuthal angle around the $z$-axis. The pseudorapidity is defined in terms of the polar angle $\theta$ as $\eta = - \text{ln} \tan (\theta/2)$. Transverse momentum and transverse energy are defined as $\pt = p \sin\theta$ and $\Et = E \sin\theta$, respectively. $\Delta R = \sqrt{(\Delta \eta )^2 + (\Delta \phi)^2}$ gives the angular distance between two objects with relative differences $\Delta \eta$ and $\Delta \phi$ in pseudorapidity and azimuth respectively.}:
+  \begin{equation}
+  \Dptr = \frac{1}{N_{\mathrm{jet}}} \frac{1}{\mathrm{A}} \frac{\mathrm{d} n_{\mathrm{ch}} (\pt, r)}{\mathrm{d} \pt},
+%D(\pt,\ptjet) = \frac{1}{N_{\mathrm{jet}}} ~ \frac{1}{\epsilon(\pttrk)} ~ \frac{\mathrm{d} N_{\mathrm{ch}}}{\mathrm{d} \pt}~(\ptjet).
+\end{equation}
+where $N_{\mathrm{jet}}$ is the number of jets in consideration, $A = \pi (r_{\mathrm{max}}^2 - r_{\mathrm{min}}^2) $ is the area of an annulus around the jet with its inner and outer radii $r_{\mathrm{min}}$ and $r_{\mathrm{max}}$. The angular distance from the jet axis is given by $r = \sqrt{\Delta \eta^2 + \Delta \phi^2}$ \footnote{$\Delta \eta$ and $\Delta \phi$ are the distances between the jet axis and the charged particle position in pseudorapidity and azimuth.}, and $n_{\mathrm{ch}}(\pt, r)$ is the number of charged particles with a given \pt\ within the annulus. The ratios of the charged-particle yields measured in \pbpb\ and \pp\ collisions,
+\begin{equation}
+   \RDptr = \frac{\Dptr_\mathrm{Pb+Pb}}{\Dptr_{pp}}
+   \label{eq:rdptr}
+\end{equation}
+%are evaluated to quantify the modifications in \pbpb\ collisions compared to the measurement in \pp\ collisions.
+allow evaluating the modifications between the two yields. The differences between the \Dptr\ distributions in \pbpb\ and \pp\ are also shown and allow for quantifying the absolute differences between the \pbpb\ and \pp\ systems even in regions where the \Dptr\ distributions in \pp\ tend to 0.
+\begin{equation}
+   \Delta \Dptr = \Dptr_\mathrm{Pb+Pb} - \Dptr_{pp}
+   \label{eq:deltadptr}
+\end{equation}
+
+The analysis is done using 0.49~nb$^{-1}$ of \pbpb\ collisions and 
+25~pb$^{-1}$ of \pp\ collisions at center-of-mass energy of 5.02~\TeV\ collected in 2015 by ATLAS.
+Jets are reconstructed with the \antikt\ algorithm~\cite{Cacciari:2008qp} using a radius parameter \RFour\ over a rapidity range of $|\yjet| <$~1.7. The measurement is presented for jets with transverse momenta (\ptjet) in the 126 to 316~\GeV\ range, for charged particles with $\pT>1.0$~\GeV\ and for the following successive intervals in $r$ around the jet, forming the annuli with inner and outer radii $r_{\textrm{min}}$ and $r_{\textrm{max}}$: 0.0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8
+
