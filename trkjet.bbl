@@ -189,7 +189,7 @@
     \field{issn}{0370-2693}
     \field{pages}{108 \bibrangedash  128}
     \field{title}{Measurement of the nuclear modification factor for inclusive
-  jets in Pb+Pb collisions at $\sqrt{{s}_{NN}}=5.02$?TeV with the ATLAS
+  jets in Pb+Pb collisions at $\sqrt{{s}_{NN}}=5.02$ TeV with the ATLAS
   detector}
     \verb{url}
     \verb http://www.sciencedirect.com/science/article/pii/S037026931830995X
@@ -481,27 +481,31 @@
   \endentry
 
   \entry{Sirunyan:2018jqr}{article}{}
-    \true{moreauthor}
     \name{author}{1}{}{%
-      {{hash=SAM}{%
-         family={Sirunyan},
-         family_i={S\bibinitperiod},
-         given={Albert\bibnamedelima M},
-         given_i={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      {{hash=T}{%
+         family={{The CMS collaboration}},
+         family_i={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{SAM+1}
-    \strng{fullhash}{SAM+1}
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb 1803.00042
+    \verb{doi}
+    \verb 10.1007/JHEP05(2018)006
     \endverb
-    \field{title}{{Jet properties in PbPb and pp collisions at
-  $\sqrt{s_\mathrm{NN}} =$ 5.02 TeV}}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{nucl-ex}
+    \field{issn}{1029-8479}
+    \field{number}{5}
+    \field{pages}{6}
+    \field{title}{Jet properties in PbPb and pp collisions at
+  $\sqrt{{s}_{NN}}=5.02$ TeV}
+    \verb{url}
+    \verb https://doi.org/10.1007/JHEP05(2018)006
+    \endverb
+    \field{volume}{2018}
+    \field{journaltitle}{Journal of High Energy Physics}
     \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Qin:2015srf}{article}{}
@@ -993,7 +997,7 @@
     \field{year}{2015}
   \endentry
 
-  \entry{ATLAS-CONF-2016-110}{booklet}{}
+  \entry{2019167}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
@@ -1004,13 +1008,19 @@
     \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{howpublished}{{ATLAS-CONF-2016-110}}
-    \field{title}{{Study of photon-jet momentum correlations in Pb+Pb and
-  \(pp\) collisions at \(\sqrt{s_{\text{NN}}} = 5.02~\text{TeV}\) with ATLAS}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/2220772
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.physletb.2018.12.023
     \endverb
-    \field{year}{2016}
+    \field{issn}{0370-2693}
+    \field{pages}{167 \bibrangedash  190}
+    \field{title}{Measurement of photon–jet transverse momentum correlations
+  in 5.02 TeV Pb + Pb and pp collisions with ATLAS}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S037026931830950X
+    \endverb
+    \field{volume}{789}
+    \field{journaltitle}{Physics Letters B}
+    \field{year}{2019}
   \endentry
 
   \entry{Aaboud:2017all}{article}{}
@@ -1039,26 +1049,6 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
     \field{year}{2017}
-  \endentry
-
-  \entry{ATLAS-CONF-2016-105}{booklet}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A2}
-    \strng{fullhash}{A2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{{ATLAS-CONF-2016-105}}
-    \field{title}{{Measurement of the azimuthal anisotropy of charged particles
-  in \(5.02~\text{TeV}\) Pb+Pb collisions with the ATLAS detector}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/2220372
-    \endverb
-    \field{year}{2016}
   \endentry
 
   \entry{DAgostini:1994zf}{article}{}
