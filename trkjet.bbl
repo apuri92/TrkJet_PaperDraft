@@ -1158,26 +1158,6 @@
     \field{year}{2015}
   \endentry
 
-  \entry{Run2jetpubnote}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A2}
-    \strng{fullhash}{A2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{note}{ATLAS-PHYS-PUB-2015-015}
-    \field{title}{Jet calibration and systematic uncertainties for jets
-  reconstructed in the ATLAS detector at $\sqrt{s}$=13~TeV}
-    \verb{url}
-    \verb https://cds.cern.ch/record/2037613
-    \endverb
-    \field{year}{2015}
-  \endentry
-
   \entry{Aad:2014bia}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
