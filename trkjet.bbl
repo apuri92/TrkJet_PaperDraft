@@ -184,18 +184,19 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
-    \verb https://doi.org/10.1016/j.physletb.2018.10.076
+    \verb 10.1016/j.physletb.2018.10.076
     \endverb
-    \field{issn}{0370-2693}
-    \field{pages}{108 \bibrangedash  128}
-    \field{title}{Measurement of the nuclear modification factor for inclusive
-  jets in Pb+Pb collisions at $\sqrt{{s}_{NN}}=5.02$ TeV with the ATLAS
-  detector}
-    \verb{url}
-    \verb http://www.sciencedirect.com/science/article/pii/S037026931830995X
+    \verb{eprint}
+    \verb 1805.05635
     \endverb
-    \field{volume}{790}
-    \field{journaltitle}{Physics Letters B}
+    \field{pages}{108\bibrangedash 128}
+    \field{title}{{Measurement of the nuclear modification factor for inclusive
+  jets in Pb+Pb collisions at $\sqrt{s_\mathrm{NN}}=5.02$ TeV with the ATLAS
+  detector}}
+    \field{volume}{B790}
+    \field{journaltitle}{Phys. Lett.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{nucl-ex}
     \field{year}{2019}
   \endentry
 
@@ -247,7 +248,7 @@
     \field{pages}{024906}
     \field{title}{{Observation and studies of jet quenching in PbPb collisions
   at nucleon-nucleon center-of-mass energy = 2.76 TeV}}
-    \field{volume}{C84}
+    \field{volume}{C 84}
     \field{journaltitle}{Phys. Rev.}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{nucl-ex}
@@ -275,7 +276,7 @@
     \field{title}{{Measurement of jet $p_{\mathrm{T}}$ correlations in Pb+Pb
   and $pp$ collisions at $\sqrt{s_{\mathrm{NN}}}=$ 2.76 TeV with the ATLAS
   detector}}
-    \field{volume}{B774}
+    \field{volume}{B 774}
     \field{journaltitle}{Phys. Lett.}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
@@ -302,7 +303,7 @@
     \field{pages}{773\bibrangedash 794}
     \field{title}{{Studies of jet quenching using isolated-photon+jet
   correlations in PbPb and $pp$ collisions at $\sqrt{s_{NN}}=2.76$ TeV}}
-    \field{volume}{B718}
+    \field{volume}{B 718}
     \field{journaltitle}{Phys. Lett.}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{nucl-ex}
@@ -329,7 +330,7 @@
     \field{pages}{243\bibrangedash 263}
     \field{title}{{Modification of jet shapes in PbPb collisions at $\sqrt
   {s_{NN}} = 2.76$ TeV}}
-    \field{volume}{B730}
+    \field{volume}{B 730}
     \field{journaltitle}{Phys. Lett.}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{nucl-ex}
@@ -422,34 +423,30 @@
 
   \entry{PhysRevC.98.024908}{article}{}
     \name{author}{1}{}{%
-      {{hash=CA}{%
-         family={Collaboration},
-         family_i={C\bibinitperiod},
-         given={ATLAS},
-         given_i={A\bibinitperiod},
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         family_i={A\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {American Physical Society}%
-    }
-    \strng{namehash}{CA1}
-    \strng{fullhash}{CA1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
     \verb 10.1103/PhysRevC.98.024908
     \endverb
-    \field{issue}{2}
-    \field{pages}{024908}
-    \field{title}{Measurement of jet fragmentation in Pb+Pb and $pp$ collisions
-  at $\sqrt{{s}_{NN}}=5.02$ TeV with the ATLAS detector}
-    \verb{url}
-    \verb https://link.aps.org/doi/10.1103/PhysRevC.98.024908
+    \verb{eprint}
+    \verb 1805.05424
     \endverb
-    \field{volume}{98}
-    \field{journaltitle}{Phys. Rev. C}
+    \field{number}{2}
+    \field{pages}{024908}
+    \field{title}{{Measurement of jet fragmentation in Pb+Pb and $pp$
+  collisions at $\sqrt{s_{NN}} = 5.02$ TeV with the ATLAS detector}}
+    \field{volume}{C98}
+    \field{journaltitle}{Phys. Rev.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{nucl-ex}
     \field{year}{2018}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Khachatryan:2016tfj}{article}{}
@@ -482,30 +479,29 @@
 
   \entry{Sirunyan:2018jqr}{article}{}
     \name{author}{1}{}{%
-      {{hash=T}{%
-         family={{The CMS collaboration}},
-         family_i={T\bibinitperiod},
+      {{hash=C}{%
+         family={{CMS collaboration}},
+         family_i={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{T1}
-    \strng{fullhash}{T1}
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
     \verb 10.1007/JHEP05(2018)006
     \endverb
-    \field{issn}{1029-8479}
-    \field{number}{5}
-    \field{pages}{6}
-    \field{title}{Jet properties in PbPb and pp collisions at
-  $\sqrt{{s}_{NN}}=5.02$ TeV}
-    \verb{url}
-    \verb https://doi.org/10.1007/JHEP05(2018)006
+    \verb{eprint}
+    \verb 1803.00042
     \endverb
-    \field{volume}{2018}
-    \field{journaltitle}{Journal of High Energy Physics}
+    \field{pages}{006}
+    \field{title}{{Jet properties in PbPb and pp collisions at
+  $\sqrt{{s}_{NN}}=5.02$ TeV}}
+    \field{volume}{05}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{nucl-ex}
     \field{year}{2018}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Qin:2015srf}{article}{}
@@ -912,7 +908,7 @@
     \endverb
     \field{pages}{823\bibrangedash 874}
     \field{title}{{The ATLAS Simulation Infrastructure}}
-    \field{volume}{C70}
+    \field{volume}{C 70}
     \field{journaltitle}{Eur.~Phys.~J.}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{physics.ins-det}
@@ -969,7 +965,7 @@
     \field{title}{{Jet energy scale measurements and their systematic
   uncertainties in proton-proton collisions at $\sqrt{s} = 13$ TeV with the
   ATLAS detector}}
-    \field{volume}{D96}
+    \field{volume}{D 96}
     \field{journaltitle}{Phys. Rev.}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
@@ -998,28 +994,32 @@
   \endentry
 
   \entry{2019167}{article}{}
+    \true{moreauthor}
     \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
+      {{hash=AM}{%
+         family={Aaboud},
          family_i={A\bibinitperiod},
+         given={Morad},
+         given_i={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A2}
-    \strng{fullhash}{A2}
+    \strng{namehash}{AM+1}
+    \strng{fullhash}{AM+1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
-    \verb https://doi.org/10.1016/j.physletb.2018.12.023
+    \verb 10.1016/j.physletb.2018.12.023
     \endverb
-    \field{issn}{0370-2693}
-    \field{pages}{167 \bibrangedash  190}
-    \field{title}{Measurement of photon–jet transverse momentum correlations
-  in 5.02 TeV Pb + Pb and pp collisions with ATLAS}
-    \verb{url}
-    \verb http://www.sciencedirect.com/science/article/pii/S037026931830950X
+    \verb{eprint}
+    \verb 1809.07280
     \endverb
-    \field{volume}{789}
-    \field{journaltitle}{Physics Letters B}
+    \field{pages}{167\bibrangedash 190}
+    \field{title}{{Measurement of photon-jet transverse momentum correlations
+  in 5.02 TeV Pb+Pb and $pp$ collisions with ATLAS}}
+    \field{volume}{B 789}
+    \field{journaltitle}{Phys. Lett.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{nucl-ex}
     \field{year}{2019}
   \endentry
 
@@ -1044,7 +1044,7 @@
     \field{pages}{673}
     \field{title}{{Performance of the ATLAS Track Reconstruction Algorithms in
   Dense Environments in LHC Run 2}}
-    \field{volume}{C77}
+    \field{volume}{C 77}
     \field{journaltitle}{Eur. Phys. J.}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
@@ -1155,7 +1155,6 @@
     \verb{url}
     \verb https://cds.cern.ch/record/2008677
     \endverb
-    \field{year}{2015}
   \endentry
 
   \entry{Aad:2014bia}{article}{}
