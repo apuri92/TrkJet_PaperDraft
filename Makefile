@@ -33,7 +33,7 @@ DVIPDF   = dvipdf
 
 #-------------------------------------------------------------------------------
 # The main document filename
-BASENAME = mydocument
+BASENAME = trkjet
 
 #-------------------------------------------------------------------------------
 # Adjust this according to your top-level figures directory
