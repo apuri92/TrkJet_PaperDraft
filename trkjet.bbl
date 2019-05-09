@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 2.7 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,26 +16,26 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}
+\sortlist[entry]{none/global/}
   \entry{Roland:2014jsa}{article}{}
     \name{author}{3}{}{%
       {{hash=RG}{%
          family={Roland},
-         familyi={R\bibinitperiod},
+         family_i={R\bibinitperiod},
          given={G.},
-         giveni={G\bibinitperiod},
+         given_i={G\bibinitperiod},
       }}%
       {{hash=vK}{%
          family={\v{S}afa\v{r}\'{i}k},
-         familyi={v\bibinitperiod},
+         family_i={v\bibinitperiod},
          given={K.},
-         giveni={K\bibinitperiod},
+         given_i={K\bibinitperiod},
       }}%
       {{hash=SP}{%
          family={Steinberg},
-         familyi={S\bibinitperiod},
+         family_i={S\bibinitperiod},
          given={P.},
-         giveni={P\bibinitperiod},
+         given_i={P\bibinitperiod},
       }}%
     }
     \strng{namehash}{RGvKSP1}
@@ -56,23 +56,23 @@
     \name{author}{3}{}{%
       {{hash=BW}{%
          family={Busza},
-         familyi={B\bibinitperiod},
+         family_i={B\bibinitperiod},
          given={Wit},
-         giveni={W\bibinitperiod},
+         given_i={W\bibinitperiod},
       }}%
       {{hash=RK}{%
          family={Rajagopal},
-         familyi={R\bibinitperiod},
+         family_i={R\bibinitperiod},
          given={Krishna},
-         giveni={K\bibinitperiod},
+         given_i={K\bibinitperiod},
       }}%
       {{hash=vdSW}{%
          prefix={van\bibnamedelima der},
-         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         prefix_i={v\bibinitperiod\bibinitdelim d\bibinitperiod},
          family={Schee},
-         familyi={S\bibinitperiod},
+         family_i={S\bibinitperiod},
          given={Wilke},
-         giveni={W\bibinitperiod},
+         given_i={W\bibinitperiod},
       }}%
     }
     \strng{namehash}{BWRKSWvd1}
@@ -93,7 +93,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ALICE Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A1}
@@ -120,7 +120,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -144,11 +144,38 @@
     \field{year}{2015}
   \endentry
 
+  \entry{Adam:2015ewa}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ALICE Collaboration}},
+         family_i={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physletb.2015.04.039
+    \endverb
+    \verb{eprint}
+    \verb 1502.01689
+    \endverb
+    \field{pages}{1\bibrangedash 14}
+    \field{title}{{Measurement of jet suppression in central Pb-Pb collisions
+  at $\sqrt{s_{\mathrm NN}}$ = 2.76 TeV}}
+    \field{volume}{B746}
+    \field{journaltitle}{Phys. Lett.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{nucl-ex}
+    \field{year}{2015}
+  \endentry
+
   \entry{Khachatryan:2016jfl}{article}{}
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS Collaboration}},
-         familyi={C\bibinitperiod},
+         family_i={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C1}
@@ -176,7 +203,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -204,7 +231,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -232,7 +259,7 @@
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS Collaboration}},
-         familyi={C\bibinitperiod},
+         family_i={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C1}
@@ -259,7 +286,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -287,7 +314,7 @@
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS Collaboration}},
-         familyi={C\bibinitperiod},
+         family_i={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C1}
@@ -310,11 +337,41 @@
     \field{year}{2013}
   \endentry
 
+  \entry{Aaboud:2018anc}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=AM}{%
+         family={Aaboud},
+         family_i={A\bibinitperiod},
+         given={Morad},
+         given_i={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AM+1}
+    \strng{fullhash}{AM+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physletb.2018.12.023
+    \endverb
+    \verb{eprint}
+    \verb 1809.07280
+    \endverb
+    \field{pages}{167\bibrangedash 190}
+    \field{title}{{Measurement of photon–jet transverse momentum correlations
+  in 5.02 TeV Pb + Pb and $pp$ collisions with ATLAS}}
+    \field{volume}{B789}
+    \field{journaltitle}{Phys. Lett.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{nucl-ex}
+    \field{year}{2019}
+  \endentry
+
   \entry{Chatrchyan:2013kwa}{article}{}
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS Collaboration}},
-         familyi={C\bibinitperiod},
+         family_i={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C1}
@@ -337,11 +394,38 @@
     \field{year}{2014}
   \endentry
 
+  \entry{Acharya:2018uvf}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ALICE Collaboration}},
+         family_i={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP10(2018)139
+    \endverb
+    \verb{eprint}
+    \verb 1807.06854
+    \endverb
+    \field{pages}{139}
+    \field{title}{{Medium modification of the shape of small-radius jets in
+  central Pb-Pb collisions at $\sqrt{s_{\mathrm {NN}}} = 2.76\,\mathrm{TeV}$}}
+    \field{volume}{10}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{nucl-ex}
+    \field{year}{2018}
+  \endentry
+
   \entry{Aad:2014wha}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -369,7 +453,7 @@
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS Collaboration}},
-         familyi={C\bibinitperiod},
+         family_i={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C1}
@@ -396,7 +480,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -425,7 +509,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -449,11 +533,41 @@
     \field{year}{2018}
   \endentry
 
+  \entry{Khachatryan:2015lha}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=KV}{%
+         family={Khachatryan},
+         family_i={K\bibinitperiod},
+         given={Vardan},
+         given_i={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KV+1}
+    \strng{fullhash}{KV+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP01(2016)006
+    \endverb
+    \verb{eprint}
+    \verb 1509.09029
+    \endverb
+    \field{pages}{006}
+    \field{title}{{Measurement of transverse momentum relative to dijet systems
+  in PbPb and pp collisions at $ \sqrt{s_{\mathrm{NN}}}=2.76 $ TeV}}
+    \field{volume}{01}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{nucl-ex}
+    \field{year}{2016}
+  \endentry
+
   \entry{Khachatryan:2016tfj}{article}{}
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS Collaboration}},
-         familyi={C\bibinitperiod},
+         family_i={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C1}
@@ -481,7 +595,7 @@
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS collaboration}},
-         familyi={C\bibinitperiod},
+         family_i={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C2}
@@ -504,60 +618,101 @@
     \field{year}{2018}
   \endentry
 
-  \entry{Qin:2015srf}{article}{}
-    \name{author}{2}{}{%
-      {{hash=QGY}{%
-         family={Qin},
-         familyi={Q\bibinitperiod},
-         given={Guang-You},
-         giveni={G\bibinitperiod-Y\bibinitperiod},
+  \entry{Vitev:2008rz}{article}{}
+    \name{author}{3}{}{%
+      {{hash=VI}{%
+         family={Vitev},
+         family_i={V\bibinitperiod},
+         given={Ivan},
+         given_i={I\bibinitperiod},
       }}%
-      {{hash=WXN}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Xin-Nian},
-         giveni={X\bibinitperiod-N\bibinitperiod},
+      {{hash=WS}{%
+         family={Wicks},
+         family_i={W\bibinitperiod},
+         given={Simon},
+         given_i={S\bibinitperiod},
+      }}%
+      {{hash=ZBW}{%
+         family={Zhang},
+         family_i={Z\bibinitperiod},
+         given={Ben-Wei},
+         given_i={B\bibinitperiod-W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{QGYWXN1}
-    \strng{fullhash}{QGYWXN1}
+    \strng{namehash}{VIWSZBW1}
+    \strng{fullhash}{VIWSZBW1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
-    \verb 10.1142/S0218301315300143, 10.1142/9789814663717_0007
+    \verb 10.1088/1126-6708/2008/11/093
     \endverb
     \verb{eprint}
-    \verb 1511.00790
+    \verb 0810.2807
     \endverb
-    \field{number}{11}
-    \field{pages}{1530014}
-    \field{title}{{Jet quenching in high-energy heavy-ion collisions}}
-    \field{volume}{24}
-    \field{journaltitle}{Int. J. Mod. Phys.~E}
+    \field{pages}{093}
+    \field{title}{{A Theory of jet shapes and cross sections: From hadrons to
+  nuclei}}
+    \field{volume}{11}
+    \field{journaltitle}{JHEP}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ph}
-    \field{year}{2015}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Ovanesyan:2011xy}{article}{}
+    \name{author}{2}{}{%
+      {{hash=OG}{%
+         family={Ovanesyan},
+         family_i={O\bibinitperiod},
+         given={Grigory},
+         given_i={G\bibinitperiod},
+      }}%
+      {{hash=VI}{%
+         family={Vitev},
+         family_i={V\bibinitperiod},
+         given={Ivan},
+         given_i={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OGVI1}
+    \strng{fullhash}{OGVI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP06(2011)080
+    \endverb
+    \verb{eprint}
+    \verb 1103.1074
+    \endverb
+    \field{pages}{080}
+    \field{title}{{An effective theory for jet propagation in dense QCD matter:
+  jet broadening and medium-induced bremsstrahlung}}
+    \field{volume}{06}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2011}
   \endentry
 
   \entry{Blaizot:2014ula}{article}{}
     \name{author}{3}{}{%
       {{hash=BJP}{%
          family={Blaizot},
-         familyi={B\bibinitperiod},
+         family_i={B\bibinitperiod},
          given={Jean-Paul},
-         giveni={J\bibinitperiod-P\bibinitperiod},
+         given_i={J\bibinitperiod-P\bibinitperiod},
       }}%
       {{hash=MTY}{%
          family={Mehtar-Tani},
-         familyi={M\bibinitperiod-T\bibinitperiod},
+         family_i={M\bibinitperiod-T\bibinitperiod},
          given={Yacine},
-         giveni={Y\bibinitperiod},
+         given_i={Y\bibinitperiod},
       }}%
       {{hash=TMAC}{%
          family={Torres},
-         familyi={T\bibinitperiod},
+         family_i={T\bibinitperiod},
          given={Marcus A.\bibnamedelima C.},
-         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+         given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
   C\bibinitperiod},
       }}%
     }
@@ -581,25 +736,190 @@
     \field{year}{2015}
   \endentry
 
+  \entry{Qin:2015srf}{article}{}
+    \name{author}{2}{}{%
+      {{hash=QGY}{%
+         family={Qin},
+         family_i={Q\bibinitperiod},
+         given={Guang-You},
+         given_i={G\bibinitperiod-Y\bibinitperiod},
+      }}%
+      {{hash=WXN}{%
+         family={Wang},
+         family_i={W\bibinitperiod},
+         given={Xin-Nian},
+         given_i={X\bibinitperiod-N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{QGYWXN1}
+    \strng{fullhash}{QGYWXN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1142/S0218301315300143, 10.1142/9789814663717_0007
+    \endverb
+    \verb{eprint}
+    \verb 1511.00790
+    \endverb
+    \field{number}{11}
+    \field{pages}{1530014}
+    \field{title}{{Jet quenching in high-energy heavy-ion collisions}}
+    \field{volume}{24}
+    \field{journaltitle}{Int. J. Mod. Phys.~E}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Escobedo:2016jbm}{article}{}
+    \name{author}{2}{}{%
+      {{hash=EMA}{%
+         family={Escobedo},
+         family_i={E\bibinitperiod},
+         given={Miguel\bibnamedelima A.},
+         given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=IE}{%
+         family={Iancu},
+         family_i={I\bibinitperiod},
+         given={Edmond},
+         given_i={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EMAIE1}
+    \strng{fullhash}{EMAIE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP05(2016)008
+    \endverb
+    \verb{eprint}
+    \verb 1601.03629
+    \endverb
+    \field{pages}{008}
+    \field{title}{{Event-by-event fluctuations in the medium-induced jet
+  evolution}}
+    \field{volume}{05}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Casalderrey-Solana:2016jvj}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CSJ}{%
+         family={Casalderrey-Solana},
+         family_i={C\bibinitperiod-S\bibinitperiod},
+         given={Jorge},
+         given_i={J\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gulhan},
+         family_i={G\bibinitperiod},
+         given={Doga},
+         given_i={D\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Milhano},
+         family_i={M\bibinitperiod},
+         given={Guilherme},
+         given_i={G\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Pablos},
+         family_i={P\bibinitperiod},
+         given={Daniel},
+         given_i={D\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Rajagopal},
+         family_i={R\bibinitperiod},
+         given={Krishna},
+         given_i={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CSJ+1}
+    \strng{fullhash}{CSJGDMGPDRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP03(2017)135
+    \endverb
+    \verb{eprint}
+    \verb 1609.05842
+    \endverb
+    \field{pages}{135}
+    \field{title}{{Angular Structure of Jet Quenching Within a Hybrid
+  Strong/Weak Coupling Model}}
+    \field{volume}{03}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Tachibana:2017syd}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TY}{%
+         family={Tachibana},
+         family_i={T\bibinitperiod},
+         given={Yasuki},
+         given_i={Y\bibinitperiod},
+      }}%
+      {{hash=CNB}{%
+         family={Chang},
+         family_i={C\bibinitperiod},
+         given={Ning-Bo},
+         given_i={N\bibinitperiod-B\bibinitperiod},
+      }}%
+      {{hash=QGY}{%
+         family={Qin},
+         family_i={Q\bibinitperiod},
+         given={Guang-You},
+         given_i={G\bibinitperiod-Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TYCNBQGY1}
+    \strng{fullhash}{TYCNBQGY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevC.95.044909
+    \endverb
+    \verb{eprint}
+    \verb 1701.07951
+    \endverb
+    \field{number}{4}
+    \field{pages}{044909}
+    \field{title}{{Full jet in quark-gluon plasma with hydrodynamic medium
+  response}}
+    \field{volume}{C95}
+    \field{journaltitle}{Phys. Rev.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{nucl-th}
+    \field{year}{2017}
+  \endentry
+
   \entry{Cacciari:2008qp}{article}{}
     \name{author}{3}{}{%
       {{hash=CM}{%
          family={Cacciari},
-         familyi={C\bibinitperiod},
+         family_i={C\bibinitperiod},
          given={Matteo},
-         giveni={M\bibinitperiod},
+         given_i={M\bibinitperiod},
       }}%
       {{hash=SGP}{%
          family={Salam},
-         familyi={S\bibinitperiod},
+         family_i={S\bibinitperiod},
          given={Gavin\bibnamedelima P.},
-         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given_i={G\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
       {{hash=SG}{%
          family={Soyez},
-         familyi={S\bibinitperiod},
+         family_i={S\bibinitperiod},
          given={Gregory},
-         giveni={G\bibinitperiod},
+         given_i={G\bibinitperiod},
       }}%
     }
     \strng{namehash}{CMSGPSG1}
@@ -625,7 +945,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -646,7 +966,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -665,7 +985,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -684,7 +1004,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -713,9 +1033,9 @@
     \name{author}{1}{}{%
       {{hash=NP}{%
          family={Nason},
-         familyi={N\bibinitperiod},
+         family_i={N\bibinitperiod},
          given={Paolo},
-         giveni={P\bibinitperiod},
+         given_i={P\bibinitperiod},
       }}%
     }
     \strng{namehash}{NP1}
@@ -742,63 +1062,63 @@
     \name{author}{10}{}{%
       {{hash=ST}{%
          family={Sjöstrand},
-         familyi={S\bibinitperiod},
+         family_i={S\bibinitperiod},
          given={Torbjörn},
-         giveni={T\bibinitperiod},
+         given_i={T\bibinitperiod},
       }}%
       {{hash=AS}{%
          family={Ask},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
          given={Stefan},
-         giveni={S\bibinitperiod},
+         given_i={S\bibinitperiod},
       }}%
       {{hash=CJR}{%
          family={Christiansen},
-         familyi={C\bibinitperiod},
+         family_i={C\bibinitperiod},
          given={Jesper\bibnamedelima R.},
-         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
       {{hash=CR}{%
          family={Corke},
-         familyi={C\bibinitperiod},
+         family_i={C\bibinitperiod},
          given={Richard},
-         giveni={R\bibinitperiod},
+         given_i={R\bibinitperiod},
       }}%
       {{hash=DN}{%
          family={Desai},
-         familyi={D\bibinitperiod},
+         family_i={D\bibinitperiod},
          given={Nishita},
-         giveni={N\bibinitperiod},
+         given_i={N\bibinitperiod},
       }}%
       {{hash=IP}{%
          family={Ilten},
-         familyi={I\bibinitperiod},
+         family_i={I\bibinitperiod},
          given={Philip},
-         giveni={P\bibinitperiod},
+         given_i={P\bibinitperiod},
       }}%
       {{hash=MS}{%
          family={Mrenna},
-         familyi={M\bibinitperiod},
+         family_i={M\bibinitperiod},
          given={Stephen},
-         giveni={S\bibinitperiod},
+         given_i={S\bibinitperiod},
       }}%
       {{hash=PS}{%
          family={Prestel},
-         familyi={P\bibinitperiod},
+         family_i={P\bibinitperiod},
          given={Stefan},
-         giveni={S\bibinitperiod},
+         given_i={S\bibinitperiod},
       }}%
       {{hash=RCO}{%
          family={Rasmussen},
-         familyi={R\bibinitperiod},
+         family_i={R\bibinitperiod},
          given={Christine\bibnamedelima O.},
-         giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod},
+         given_i={C\bibinitperiod\bibinitdelim O\bibinitperiod},
       }}%
       {{hash=SPZ}{%
          family={Skands},
-         familyi={S\bibinitperiod},
+         family_i={S\bibinitperiod},
          given={Peter\bibnamedelima Z.},
-         giveni={P\bibinitperiod\bibinitdelim Z\bibinitperiod},
+         given_i={P\bibinitperiod\bibinitdelim Z\bibinitperiod},
       }}%
     }
     \strng{namehash}{ST+1}
@@ -824,7 +1144,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -844,9 +1164,9 @@
     \name{author}{1}{}{%
       {{hash=BRD}{%
          family={Ball},
-         familyi={B\bibinitperiod},
+         family_i={B\bibinitperiod},
          given={Richard\bibnamedelima D.},
-         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given_i={R\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
     }
     \strng{namehash}{BRD+1}
@@ -872,7 +1192,7 @@
     \name{author}{1}{}{%
       {{hash=G}{%
          family={{GEANT4 Collaboration, S. Agostinelli et al.}},
-         familyi={G\bibinitperiod},
+         family_i={G\bibinitperiod},
       }}%
     }
     \strng{namehash}{G1}
@@ -893,7 +1213,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -919,7 +1239,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -947,7 +1267,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -976,7 +1296,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -994,17 +1314,14 @@
   \endentry
 
   \entry{2019167}{article}{}
-    \true{moreauthor}
     \name{author}{1}{}{%
-      {{hash=AM}{%
-         family={Aaboud},
-         familyi={A\bibinitperiod},
-         given={Morad},
-         giveni={M\bibinitperiod},
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         family_i={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{AM+1}
-    \strng{fullhash}{AM+1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -1027,7 +1344,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1051,13 +1368,40 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Aaboud:2017tke}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         family_i={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.nuclphysa.2018.07.006
+    \endverb
+    \verb{eprint}
+    \verb 1706.02859
+    \endverb
+    \field{pages}{65}
+    \field{title}{{Measurement of jet fragmentation in 5.02 TeV proton-lead and
+  proton-proton collisions with the ATLAS detector}}
+    \field{volume}{A978}
+    \field{journaltitle}{Nucl. Phys.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2018}
+  \endentry
+
   \entry{DAgostini:1994zf}{article}{}
     \name{author}{1}{}{%
       {{hash=DG}{%
          family={D'Agostini},
-         familyi={D\bibinitperiod},
+         family_i={D\bibinitperiod},
          given={G.},
-         giveni={G\bibinitperiod},
+         given_i={G\bibinitperiod},
       }}%
     }
     \strng{namehash}{DG1}
@@ -1079,9 +1423,9 @@
     \name{author}{1}{}{%
       {{hash=AT}{%
          family={Adye},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
          given={Tim},
-         giveni={T\bibinitperiod},
+         given_i={T\bibinitperiod},
       }}%
     }
     \list{organization}{1}{%
@@ -1115,7 +1459,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1142,7 +1486,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1161,7 +1505,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1188,7 +1532,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1215,7 +1559,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1236,7 +1580,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1256,7 +1600,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1273,11 +1617,69 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Spousta:2015fca}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SM}{%
+         family={Spousta},
+         family_i={S\bibinitperiod},
+         given={Martin},
+         given_i={M\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Cole},
+         family_i={C\bibinitperiod},
+         given={Brian},
+         given_i={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMCB1}
+    \strng{fullhash}{SMCB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-016-3896-0
+    \endverb
+    \verb{eprint}
+    \verb 1504.05169
+    \endverb
+    \field{number}{2}
+    \field{pages}{50}
+    \field{title}{{Interpreting single jet measurements in Pb $+$ Pb collisions
+  at the LHC}}
+    \field{volume}{76}
+    \field{journaltitle}{Eur. Phys. J.~C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2016}
+  \endentry
+
+  \entry{OPAL:1995ab}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=AR}{%
+         family={Akers},
+         family_i={A\bibinitperiod},
+         given={R.},
+         given_i={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AR+1}
+    \strng{fullhash}{AR+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{179\bibrangedash 202}
+    \field{title}{{A Model independent measurement of quark and gluon jet
+  properties and differences}}
+    \field{volume}{C68}
+    \field{journaltitle}{Z. Phys.}
+    \field{year}{1995}
+  \endentry
+
   \entry{ATL-GEN-PUB-2016-002}{booklet}{}
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
+         family_i={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1290,5 +1692,5 @@
     \verb https://cds.cern.ch/record/2202407
     \endverb
   \endentry
-\enddatalist
+\endsortlist
 \endinput
