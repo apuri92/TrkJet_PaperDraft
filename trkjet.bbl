@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.7 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,26 +16,26 @@
   {}
 \endgroup
 
-\sortlist[entry]{none/global/}
+\datalist[entry]{none/global//global/global}
   \entry{Roland:2014jsa}{article}{}
     \name{author}{3}{}{%
       {{hash=RG}{%
          family={Roland},
-         family_i={R\bibinitperiod},
+         familyi={R\bibinitperiod},
          given={G.},
-         given_i={G\bibinitperiod},
+         giveni={G\bibinitperiod},
       }}%
       {{hash=vK}{%
          family={\v{S}afa\v{r}\'{i}k},
-         family_i={v\bibinitperiod},
+         familyi={v\bibinitperiod},
          given={K.},
-         given_i={K\bibinitperiod},
+         giveni={K\bibinitperiod},
       }}%
       {{hash=SP}{%
          family={Steinberg},
-         family_i={S\bibinitperiod},
+         familyi={S\bibinitperiod},
          given={P.},
-         given_i={P\bibinitperiod},
+         giveni={P\bibinitperiod},
       }}%
     }
     \strng{namehash}{RGvKSP1}
@@ -56,23 +56,23 @@
     \name{author}{3}{}{%
       {{hash=BW}{%
          family={Busza},
-         family_i={B\bibinitperiod},
+         familyi={B\bibinitperiod},
          given={Wit},
-         given_i={W\bibinitperiod},
+         giveni={W\bibinitperiod},
       }}%
       {{hash=RK}{%
          family={Rajagopal},
-         family_i={R\bibinitperiod},
+         familyi={R\bibinitperiod},
          given={Krishna},
-         given_i={K\bibinitperiod},
+         giveni={K\bibinitperiod},
       }}%
       {{hash=vdSW}{%
          prefix={van\bibnamedelima der},
-         prefix_i={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
          family={Schee},
-         family_i={S\bibinitperiod},
+         familyi={S\bibinitperiod},
          given={Wilke},
-         given_i={W\bibinitperiod},
+         giveni={W\bibinitperiod},
       }}%
     }
     \strng{namehash}{BWRKSWvd1}
@@ -93,7 +93,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ALICE Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A1}
@@ -120,7 +120,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -148,7 +148,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ALICE Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A1}
@@ -175,7 +175,7 @@
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS Collaboration}},
-         family_i={C\bibinitperiod},
+         familyi={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C1}
@@ -203,7 +203,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -231,7 +231,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -259,7 +259,7 @@
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS Collaboration}},
-         family_i={C\bibinitperiod},
+         familyi={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C1}
@@ -286,7 +286,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -314,7 +314,7 @@
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS Collaboration}},
-         family_i={C\bibinitperiod},
+         familyi={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C1}
@@ -342,9 +342,9 @@
     \name{author}{1}{}{%
       {{hash=AM}{%
          family={Aaboud},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
          given={Morad},
-         given_i={M\bibinitperiod},
+         giveni={M\bibinitperiod},
       }}%
     }
     \strng{namehash}{AM+1}
@@ -371,7 +371,7 @@
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS Collaboration}},
-         family_i={C\bibinitperiod},
+         familyi={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C1}
@@ -398,7 +398,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ALICE Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A1}
@@ -425,7 +425,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -453,7 +453,7 @@
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS Collaboration}},
-         family_i={C\bibinitperiod},
+         familyi={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C1}
@@ -480,7 +480,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -505,15 +505,18 @@
     \field{year}{2017}
   \endentry
 
-  \entry{PhysRevC.98.024908}{article}{}
+  \entry{Aaboud:2018hpb}{article}{}
+    \true{moreauthor}
     \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+      {{hash=AM}{%
+         family={Aaboud},
+         familyi={A\bibinitperiod},
+         given={Morad},
+         giveni={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A2}
-    \strng{fullhash}{A2}
+    \strng{namehash}{AM+1}
+    \strng{fullhash}{AM+1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -538,9 +541,9 @@
     \name{author}{1}{}{%
       {{hash=KV}{%
          family={Khachatryan},
-         family_i={K\bibinitperiod},
+         familyi={K\bibinitperiod},
          given={Vardan},
-         given_i={V\bibinitperiod},
+         giveni={V\bibinitperiod},
       }}%
     }
     \strng{namehash}{KV+1}
@@ -567,7 +570,7 @@
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS Collaboration}},
-         family_i={C\bibinitperiod},
+         familyi={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C1}
@@ -595,7 +598,7 @@
     \name{author}{1}{}{%
       {{hash=C}{%
          family={{CMS collaboration}},
-         family_i={C\bibinitperiod},
+         familyi={C\bibinitperiod},
       }}%
     }
     \strng{namehash}{C2}
@@ -622,21 +625,21 @@
     \name{author}{3}{}{%
       {{hash=VI}{%
          family={Vitev},
-         family_i={V\bibinitperiod},
+         familyi={V\bibinitperiod},
          given={Ivan},
-         given_i={I\bibinitperiod},
+         giveni={I\bibinitperiod},
       }}%
       {{hash=WS}{%
          family={Wicks},
-         family_i={W\bibinitperiod},
+         familyi={W\bibinitperiod},
          given={Simon},
-         given_i={S\bibinitperiod},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=ZBW}{%
          family={Zhang},
-         family_i={Z\bibinitperiod},
+         familyi={Z\bibinitperiod},
          given={Ben-Wei},
-         given_i={B\bibinitperiod-W\bibinitperiod},
+         giveni={B\bibinitperiod-W\bibinitperiod},
       }}%
     }
     \strng{namehash}{VIWSZBW1}
@@ -663,15 +666,15 @@
     \name{author}{2}{}{%
       {{hash=OG}{%
          family={Ovanesyan},
-         family_i={O\bibinitperiod},
+         familyi={O\bibinitperiod},
          given={Grigory},
-         given_i={G\bibinitperiod},
+         giveni={G\bibinitperiod},
       }}%
       {{hash=VI}{%
          family={Vitev},
-         family_i={V\bibinitperiod},
+         familyi={V\bibinitperiod},
          given={Ivan},
-         given_i={I\bibinitperiod},
+         giveni={I\bibinitperiod},
       }}%
     }
     \strng{namehash}{OGVI1}
@@ -698,21 +701,21 @@
     \name{author}{3}{}{%
       {{hash=BJP}{%
          family={Blaizot},
-         family_i={B\bibinitperiod},
+         familyi={B\bibinitperiod},
          given={Jean-Paul},
-         given_i={J\bibinitperiod-P\bibinitperiod},
+         giveni={J\bibinitperiod-P\bibinitperiod},
       }}%
       {{hash=MTY}{%
          family={Mehtar-Tani},
-         family_i={M\bibinitperiod-T\bibinitperiod},
+         familyi={M\bibinitperiod-T\bibinitperiod},
          given={Yacine},
-         given_i={Y\bibinitperiod},
+         giveni={Y\bibinitperiod},
       }}%
       {{hash=TMAC}{%
          family={Torres},
-         family_i={T\bibinitperiod},
+         familyi={T\bibinitperiod},
          given={Marcus A.\bibnamedelima C.},
-         given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
   C\bibinitperiod},
       }}%
     }
@@ -740,15 +743,15 @@
     \name{author}{2}{}{%
       {{hash=QGY}{%
          family={Qin},
-         family_i={Q\bibinitperiod},
+         familyi={Q\bibinitperiod},
          given={Guang-You},
-         given_i={G\bibinitperiod-Y\bibinitperiod},
+         giveni={G\bibinitperiod-Y\bibinitperiod},
       }}%
       {{hash=WXN}{%
          family={Wang},
-         family_i={W\bibinitperiod},
+         familyi={W\bibinitperiod},
          given={Xin-Nian},
-         given_i={X\bibinitperiod-N\bibinitperiod},
+         giveni={X\bibinitperiod-N\bibinitperiod},
       }}%
     }
     \strng{namehash}{QGYWXN1}
@@ -775,15 +778,15 @@
     \name{author}{2}{}{%
       {{hash=EMA}{%
          family={Escobedo},
-         family_i={E\bibinitperiod},
+         familyi={E\bibinitperiod},
          given={Miguel\bibnamedelima A.},
-         given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=IE}{%
          family={Iancu},
-         family_i={I\bibinitperiod},
+         familyi={I\bibinitperiod},
          given={Edmond},
-         given_i={E\bibinitperiod},
+         giveni={E\bibinitperiod},
       }}%
     }
     \strng{namehash}{EMAIE1}
@@ -810,33 +813,33 @@
     \name{author}{5}{}{%
       {{hash=CSJ}{%
          family={Casalderrey-Solana},
-         family_i={C\bibinitperiod-S\bibinitperiod},
+         familyi={C\bibinitperiod-S\bibinitperiod},
          given={Jorge},
-         given_i={J\bibinitperiod},
+         giveni={J\bibinitperiod},
       }}%
       {{hash=GD}{%
          family={Gulhan},
-         family_i={G\bibinitperiod},
+         familyi={G\bibinitperiod},
          given={Doga},
-         given_i={D\bibinitperiod},
+         giveni={D\bibinitperiod},
       }}%
       {{hash=MG}{%
          family={Milhano},
-         family_i={M\bibinitperiod},
+         familyi={M\bibinitperiod},
          given={Guilherme},
-         given_i={G\bibinitperiod},
+         giveni={G\bibinitperiod},
       }}%
       {{hash=PD}{%
          family={Pablos},
-         family_i={P\bibinitperiod},
+         familyi={P\bibinitperiod},
          given={Daniel},
-         given_i={D\bibinitperiod},
+         giveni={D\bibinitperiod},
       }}%
       {{hash=RK}{%
          family={Rajagopal},
-         family_i={R\bibinitperiod},
+         familyi={R\bibinitperiod},
          given={Krishna},
-         given_i={K\bibinitperiod},
+         giveni={K\bibinitperiod},
       }}%
     }
     \strng{namehash}{CSJ+1}
@@ -863,21 +866,21 @@
     \name{author}{3}{}{%
       {{hash=TY}{%
          family={Tachibana},
-         family_i={T\bibinitperiod},
+         familyi={T\bibinitperiod},
          given={Yasuki},
-         given_i={Y\bibinitperiod},
+         giveni={Y\bibinitperiod},
       }}%
       {{hash=CNB}{%
          family={Chang},
-         family_i={C\bibinitperiod},
+         familyi={C\bibinitperiod},
          given={Ning-Bo},
-         given_i={N\bibinitperiod-B\bibinitperiod},
+         giveni={N\bibinitperiod-B\bibinitperiod},
       }}%
       {{hash=QGY}{%
          family={Qin},
-         family_i={Q\bibinitperiod},
+         familyi={Q\bibinitperiod},
          given={Guang-You},
-         given_i={G\bibinitperiod-Y\bibinitperiod},
+         giveni={G\bibinitperiod-Y\bibinitperiod},
       }}%
     }
     \strng{namehash}{TYCNBQGY1}
@@ -905,21 +908,21 @@
     \name{author}{3}{}{%
       {{hash=CM}{%
          family={Cacciari},
-         family_i={C\bibinitperiod},
+         familyi={C\bibinitperiod},
          given={Matteo},
-         given_i={M\bibinitperiod},
+         giveni={M\bibinitperiod},
       }}%
       {{hash=SGP}{%
          family={Salam},
-         family_i={S\bibinitperiod},
+         familyi={S\bibinitperiod},
          given={Gavin\bibnamedelima P.},
-         given_i={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
       {{hash=SG}{%
          family={Soyez},
-         family_i={S\bibinitperiod},
+         familyi={S\bibinitperiod},
          given={Gregory},
-         given_i={G\bibinitperiod},
+         giveni={G\bibinitperiod},
       }}%
     }
     \strng{namehash}{CMSGPSG1}
@@ -945,7 +948,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -966,7 +969,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -985,7 +988,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1004,7 +1007,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1033,9 +1036,9 @@
     \name{author}{1}{}{%
       {{hash=NP}{%
          family={Nason},
-         family_i={N\bibinitperiod},
+         familyi={N\bibinitperiod},
          given={Paolo},
-         given_i={P\bibinitperiod},
+         giveni={P\bibinitperiod},
       }}%
     }
     \strng{namehash}{NP1}
@@ -1062,63 +1065,63 @@
     \name{author}{10}{}{%
       {{hash=ST}{%
          family={Sjöstrand},
-         family_i={S\bibinitperiod},
+         familyi={S\bibinitperiod},
          given={Torbjörn},
-         given_i={T\bibinitperiod},
+         giveni={T\bibinitperiod},
       }}%
       {{hash=AS}{%
          family={Ask},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
          given={Stefan},
-         given_i={S\bibinitperiod},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=CJR}{%
          family={Christiansen},
-         family_i={C\bibinitperiod},
+         familyi={C\bibinitperiod},
          given={Jesper\bibnamedelima R.},
-         given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
       {{hash=CR}{%
          family={Corke},
-         family_i={C\bibinitperiod},
+         familyi={C\bibinitperiod},
          given={Richard},
-         given_i={R\bibinitperiod},
+         giveni={R\bibinitperiod},
       }}%
       {{hash=DN}{%
          family={Desai},
-         family_i={D\bibinitperiod},
+         familyi={D\bibinitperiod},
          given={Nishita},
-         given_i={N\bibinitperiod},
+         giveni={N\bibinitperiod},
       }}%
       {{hash=IP}{%
          family={Ilten},
-         family_i={I\bibinitperiod},
+         familyi={I\bibinitperiod},
          given={Philip},
-         given_i={P\bibinitperiod},
+         giveni={P\bibinitperiod},
       }}%
       {{hash=MS}{%
          family={Mrenna},
-         family_i={M\bibinitperiod},
+         familyi={M\bibinitperiod},
          given={Stephen},
-         given_i={S\bibinitperiod},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=PS}{%
          family={Prestel},
-         family_i={P\bibinitperiod},
+         familyi={P\bibinitperiod},
          given={Stefan},
-         given_i={S\bibinitperiod},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=RCO}{%
          family={Rasmussen},
-         family_i={R\bibinitperiod},
+         familyi={R\bibinitperiod},
          given={Christine\bibnamedelima O.},
-         given_i={C\bibinitperiod\bibinitdelim O\bibinitperiod},
+         giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod},
       }}%
       {{hash=SPZ}{%
          family={Skands},
-         family_i={S\bibinitperiod},
+         familyi={S\bibinitperiod},
          given={Peter\bibnamedelima Z.},
-         given_i={P\bibinitperiod\bibinitdelim Z\bibinitperiod},
+         giveni={P\bibinitperiod\bibinitdelim Z\bibinitperiod},
       }}%
     }
     \strng{namehash}{ST+1}
@@ -1144,7 +1147,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1164,9 +1167,9 @@
     \name{author}{1}{}{%
       {{hash=BRD}{%
          family={Ball},
-         family_i={B\bibinitperiod},
+         familyi={B\bibinitperiod},
          given={Richard\bibnamedelima D.},
-         given_i={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
     }
     \strng{namehash}{BRD+1}
@@ -1192,7 +1195,7 @@
     \name{author}{1}{}{%
       {{hash=G}{%
          family={{GEANT4 Collaboration, S. Agostinelli et al.}},
-         family_i={G\bibinitperiod},
+         familyi={G\bibinitperiod},
       }}%
     }
     \strng{namehash}{G1}
@@ -1213,7 +1216,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1239,7 +1242,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1267,7 +1270,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1296,7 +1299,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1317,7 +1320,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1344,7 +1347,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1372,7 +1375,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1399,9 +1402,9 @@
     \name{author}{1}{}{%
       {{hash=DG}{%
          family={D'Agostini},
-         family_i={D\bibinitperiod},
+         familyi={D\bibinitperiod},
          given={G.},
-         given_i={G\bibinitperiod},
+         giveni={G\bibinitperiod},
       }}%
     }
     \strng{namehash}{DG1}
@@ -1423,9 +1426,9 @@
     \name{author}{1}{}{%
       {{hash=AT}{%
          family={Adye},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
          given={Tim},
-         given_i={T\bibinitperiod},
+         giveni={T\bibinitperiod},
       }}%
     }
     \list{organization}{1}{%
@@ -1459,7 +1462,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1486,7 +1489,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1505,7 +1508,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1532,7 +1535,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1559,7 +1562,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1580,7 +1583,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1600,7 +1603,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1621,15 +1624,15 @@
     \name{author}{2}{}{%
       {{hash=SM}{%
          family={Spousta},
-         family_i={S\bibinitperiod},
+         familyi={S\bibinitperiod},
          given={Martin},
-         given_i={M\bibinitperiod},
+         giveni={M\bibinitperiod},
       }}%
       {{hash=CB}{%
          family={Cole},
-         family_i={C\bibinitperiod},
+         familyi={C\bibinitperiod},
          given={Brian},
-         given_i={B\bibinitperiod},
+         giveni={B\bibinitperiod},
       }}%
     }
     \strng{namehash}{SMCB1}
@@ -1658,9 +1661,9 @@
     \name{author}{1}{}{%
       {{hash=AR}{%
          family={Akers},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
          given={R.},
-         given_i={R\bibinitperiod},
+         giveni={R\bibinitperiod},
       }}%
     }
     \strng{namehash}{AR+1}
@@ -1679,7 +1682,7 @@
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
+         familyi={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{A2}
@@ -1692,5 +1695,5 @@
     \verb https://cds.cern.ch/record/2202407
     \endverb
   \endentry
-\endsortlist
+\enddatalist
 \endinput

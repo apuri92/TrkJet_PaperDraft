@@ -43,8 +43,10 @@ cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_jet7_cent5
 cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_jet9_cent0.pdf "$figures_results"
 cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_jet9_cent3.pdf "$figures_results"
 cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_jet9_cent5.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_trk2_trk6_cent0.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_trk2_trk6_cent5.pdf "$figures_results"
+# cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_trk2_trk6_cent0.pdf "$figures_results"
+# cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_trk2_trk6_cent5.pdf "$figures_results"
+cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_trk3_trk6_cent0.pdf "$figures_results"
+cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_trk3_trk6_cent5.pdf "$figures_results"
 
 # cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_trk2_trk6_jet7.pdf "$figures_results"
 # cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_trk2_trk6_jet9.pdf "$figures_results"
