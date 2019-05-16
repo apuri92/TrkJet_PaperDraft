@@ -6,7 +6,7 @@ The \antikt\ algorithm is first run in four-momentum recombination mode, on
 $\Delta \eta \times \Delta \phi = 0.1\times 0.1$  calorimeter towers with two \antikt\ distance parameter values ($R=$~0.2 and $R=$~0.4). The energies in the towers are obtained by summing the
 	energies of calorimeter cells at the electromagnetic energy scale within the tower boundaries. Then,
 	  an iterative procedure is used to estimate the $\eta$-dependent underlying event (UE)  transverse energy density, while excluding the regions populated by jets. The estimate of the UE contribution is performed on an event-by-event basis.
-	Furthermore, the background is modulated to account for the presence of the azimuthal anisotropy of particle production~\cite{ATLAS:2012at}. The modulation accounts for the contribution of the second, third, and fourth order azimuthal anisotropy harmonics.
+	Furthermore, the background is modulated to account for the azimuthal anisotropy in particle production~\cite{ATLAS:2012at}. The modulation accounts for the contribution of the second, third, and fourth order azimuthal anisotropy harmonics.
 	The UE transverse energy is subtracted from calorimeter towers included in the jet and the four-momentum of the jet is updated accordingly.
 	  Then, a jet $\eta$- and \pT-dependent  correction factor to the \ptjet\ 
 	  derived from the simulation samples is applied to correct for the calorimeter energy
@@ -21,7 +21,7 @@ jets are rejected if there is another jet with a higher \ptjet\ than the conside
 within an angular distance of $\Delta R < 1.0$. The isolation requirement removes approximately 0.01\% of jets, and has a negligible impact on the final measurement.
 
 Charged-particle tracks in \pbpb\ collisions are reconstructed from hits in the inner detector using the 
-track reconstruction algorithm with settings optimized for the high hit density in heavy-ion
+track reconstruction algorithm that has been optimized for the high hit density in heavy-ion
 collisions~\cite{Aaboud:2017all}.
 Tracks used in this analysis  are required to have at least 9 (11) total silicon hits for charged particles with pseudorapidity,  \mbox{|\etatrk| $\leq$ 1.65 (|\etatrk| > 1.65)}.  At least one hit is required in one of the two innermost pixel layers.
 If the track trajectory passes through an active module in the innermost layer, then 
@@ -30,10 +30,10 @@ have no more than two holes in the pixel and SCT detectors together, where
 a hole is defined by the absence of a hit predicted by the track 
 trajectory. 
 All charged-particle tracks used in this analysis are required to have reconstructed transverse momentum $\pttrk > 1.0 $~\GeV. In order to suppress a contribution from
-secondary particles, the distance of closest approach of the track to the primary vertex is required to be less than a value which varies from  0.45~mm at $\pttrk=4$~\GeV\ to 0.2~mm at $\pttrk=20$~\GeV\ in the transverse plane and less than 1.0~mm in the longitudinal direction.
+secondary particles\footnote{Primary particles are defined as particles with a mean lifetime $\tau>0.3\times 10^{-10}$s either directly produced in \pp\ interactions or from subsequent decays of particles with a shorter lifetime. All other particles are considered to be secondary.}, the distance of closest approach of the track to the primary vertex is required to be less than a value that varies from 0.45~mm at $\pttrk=4$~\GeV\ to 0.2~mm at $\pttrk=20$~\GeV\ in the transverse plane and is less than 1.0~mm in the longitudinal direction.
 
 
-The efficiency, $\varepsilon$, for reconstructing charged particles in \PbPb\ and \pp\ collisions is evaluated as a function of the generator-level primary particle\footnote{Primary particles are defined as particles with a mean lifetime $\tau>0.3\times 10^{-10}$s either directly produced in \pp\ interactions or from subsequent decays of particles with a shorter lifetime. All other particles are considered to be secondary.} transverse momentum, \pTtrue, and pseudorapidity, \etatrue, by associating tracks to generator-level primary particles using the MC samples described above~\cite{Aad:2010ah}. For \pbpb\ collisions the efficiency is also evaluated separately in each centrality interval used in the measurement. In both collision systems the efficiency increases slowly with \pTtrue\ and is seen to be independent of \ptjet\ in the measurement phase space. It is approximately 80\% at \mbox{$\pt = 1$ GeV} and rises to approximately 90\% at \mbox{$\pt = 63$ GeV}. The variation in efficiency between the most central and peripheral \pbpb\ collisions is approximately 3\%.
+The efficiency, $\varepsilon$, for reconstructing charged particles in \PbPb\ and \pp\ collisions is determined using the MC samples described above. It is evaluated as a function of the generator-level primary particle transverse momentum, \pTtrue, and pseudorapidity, \etatrue, by associating tracks to generator-level primary particles~\cite{Aad:2010ah}. For \pbpb\ collisions the efficiency is also evaluated separately in each centrality interval used in the measurement. In both collision systems the efficiency increases slowly with \pTtrue\ and is seen to be independent of \ptjet\ in the measurement phase space. It is approximately 80\% at \mbox{$\pt = 1$ GeV} and rises to approximately 90\% at \mbox{$\pt = 63$ GeV}. The variation in efficiency between the most central and peripheral \pbpb\ collisions is approximately 3\%.
 
 The contribution of reconstructed tracks that cannot be matched to a generated primary particle in the \pp\ MC samples (``fake" tracks), along with the residual contribution of tracks matched to secondary particles, are together less than 2\% in the entire \pttrk\ range under study in both \pp\ and \pbpb\ collisions.  
 
