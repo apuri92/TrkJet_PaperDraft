@@ -338,17 +338,14 @@
   \endentry
 
   \entry{Aaboud:2018anc}{article}{}
-    \true{moreauthor}
     \name{author}{1}{}{%
-      {{hash=AM}{%
-         family={Aaboud},
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
          family_i={A\bibinitperiod},
-         given={Morad},
-         given_i={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{AM+1}
-    \strng{fullhash}{AM+1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -359,7 +356,7 @@
     \endverb
     \field{pages}{167\bibrangedash 190}
     \field{title}{{Measurement of photon–jet transverse momentum correlations
-  in 5.02 TeV Pb + Pb and $pp$ collisions with ATLAS}}
+  in 5.02 TeV \PbPb\ and $pp$ collisions with ATLAS}}
     \field{volume}{B789}
     \field{journaltitle}{Phys. Lett.}
     \field{eprinttype}{arXiv}
@@ -506,17 +503,14 @@
   \endentry
 
   \entry{Aaboud:2018hpb}{article}{}
-    \true{moreauthor}
     \name{author}{1}{}{%
-      {{hash=AM}{%
-         family={Aaboud},
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
          family_i={A\bibinitperiod},
-         given={Morad},
-         given_i={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{AM+1}
-    \strng{fullhash}{AM+1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -537,17 +531,14 @@
   \endentry
 
   \entry{Khachatryan:2015lha}{article}{}
-    \true{moreauthor}
     \name{author}{1}{}{%
-      {{hash=KV}{%
-         family={Khachatryan},
-         family_i={K\bibinitperiod},
-         given={Vardan},
-         given_i={V\bibinitperiod},
+      {{hash=C}{%
+         family={{CMS Collaboration}},
+         family_i={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{KV+1}
-    \strng{fullhash}{KV+1}
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -936,7 +927,7 @@
     \verb 0802.1189
     \endverb
     \field{pages}{063}
-    \field{title}{{The Anti-k(t) jet clustering algorithm}}
+    \field{title}{{The \Antikt\ jet clustering algorithm}}
     \field{volume}{0804}
     \field{journaltitle}{JHEP}
     \field{eprinttype}{arXiv}
