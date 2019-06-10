@@ -3,7 +3,7 @@
 The jet reconstruction procedure is identical to that used in Ref.~\cite{2019108}. 
 %closely follow those used by \mbox{ATLAS} for jet measurements in \pp\ and \PbPb\ collisions at $\sqrtsnn=2.76$~\TeV~\cite{Aad:2014bxa} and 5.02 TeV \cite{2019108}.
 The \antikt\ algorithm is first run in four-momentum recombination mode, on
-$\Delta \eta \times \Delta \phi = 0.1\times 0.1$  calorimeter towers with two \antikt\ distance parameter values ($R=$~0.2 and $R=$~0.4). The energies in the towers are obtained by summing the
+$\Delta \eta \times \Delta \phi = 0.1\times 0.1$  calorimeter towers with two \antikt\ radius parameter values ($R=$~0.2 and $R=$~0.4). The energies in the towers are obtained by summing the
 	energies of calorimeter cells at the electromagnetic energy scale within the tower boundaries. Then,
 	  an iterative procedure is used to estimate the $\eta$-dependent underlying event (UE)  transverse energy density, while excluding the regions populated by jets. The estimate of the UE contribution is performed on an event-by-event basis.
 	Furthermore, the background is modulated to account for the azimuthal anisotropy in particle production~\cite{ATLAS:2012at}. The modulation accounts for the contribution of the second, third, and fourth order azimuthal anisotropy harmonics.
@@ -12,10 +12,10 @@ $\Delta \eta \times \Delta \phi = 0.1\times 0.1$  calorimeter towers with two \a
 	  derived from the simulation samples is applied to correct for the calorimeter energy
 	  response~\cite{Aaboud:2017jcu}. The same calibration factors are applied both 
 in \pp\ and \pbpb\ collisions.
-An additional correction based on \textit{in-situ} studies of jets recoiling against photons, $Z$ bosons, and jets in other regions of the calorimeter is
+An additional correction based on \textit{in situ} studies of jets recoiling against photons, $Z$ bosons, and jets in other regions of the calorimeter is
 	  applied~\cite{ATL-PHYS-PUB-2015-036,2019167}. The same jet reconstruction procedure without the
 	  azimuthal modulation of the UE is also applied to $pp$ collisions.
-	  In this analysis, jets are required to have \ptjet\ in the 126--316 \GeV\ range, with rapidity  $|\yjet|<$~1.7. The \ptjet\ cut was chosen based on the fake rate below \mbox{100 GeV}, while the rapidity cut was based on the acceptance of the tracking system.
+	  In this analysis, jets are required to have \ptjet\ in the 126--316 \GeV\ range, with rapidity  $|\yjet|<$~1.7. The \ptjet\ cut is chosen based on the fake rate below \mbox{100 GeV}, while the rapidity cut is based on the acceptance of the tracking system.
  To prevent nearby jets from distorting the measurement of \Dptr\ distributions, 
 jets are rejected if there is another jet with a higher \ptjet\ than the considered jet anywhere
 within an angular distance of $\Delta R < 1.0$. The isolation requirement removes approximately 0.01\% of jets.
@@ -33,7 +33,7 @@ All charged-particle tracks used in this analysis are required to have reconstru
 secondary particles\footnote{Primary particles are defined as particles with a mean lifetime $\tau>0.3\times 10^{-10}$s either directly produced in \pp\ interactions or from subsequent decays of particles with a shorter lifetime. All other particles are considered to be secondary.}, the distance of closest approach of the track to the primary vertex is required to be less than a value that varies from 0.45~mm at $\pttrk=4$~\GeV\ to 0.2~mm at $\pttrk=20$~\GeV\ in the transverse plane and is less than 1.0~mm in the longitudinal direction.
 
 
-The efficiency, $\varepsilon$, for reconstructing charged particles in \PbPb\ and \pp\ collisions is determined using the MC samples described above. It is evaluated as a function of the generator-level primary particle transverse momentum, \pTtrue, and pseudorapidity, \etatrue, by associating tracks to generator-level primary particles~\cite{Aad:2010ah}. In both collision systems the efficiency increases slowly with \pTtrue\ and is seen to be independent of \ptjet\ in the measurement phase space. For \pbpb\ collisions, the efficiency is $\sim 85\%$ at 1 GeV and rises to $\sim 85\%$ at 10 GeV, with the variation in efficiency between the most central and peripheral \pbpb\ collisions is approximately 3\%. For \pp\ collisions, the efficiency is $\sim85\%$ at 1 GeV, and rises to $\sim 88 \%$ at 10 GeV, remaining fairly flat thereafter. Further details on the tracking efficiency can be found in Ref. \cite{Aaboud:2017bzv}. 
+The efficiency, $\varepsilon$, for reconstructing charged particles in \PbPb\ and \pp\ collisions is determined using the MC samples described above. It is evaluated as a function of the generator-level primary particle transverse momentum, \pTtrue, and pseudorapidity, \etatrue, by associating tracks to generator-level primary particles~\cite{Aad:2010ah}. In both collision systems the efficiency increases slowly with \pTtrue\ and is seen to be independent of \ptjet\ in the measurement phase space. For \pbpb\ collisions, the efficiency is $\sim 80\%$ at 1 GeV and rises to $\sim 85\%$ at 10 GeV, with the variation in efficiency between the most central and peripheral \pbpb\ collisions is approximately 3\%. For \pp\ collisions, the efficiency is $\sim85\%$ at 1 GeV, and rises to $\sim 88 \%$ at 10 GeV, remaining fairly constant thereafter. Further details on the tracking efficiency can be found in Ref. \cite{Aaboud:2017bzv}. 
 
 The contribution of reconstructed tracks that cannot be matched to a generated primary particle in the \pp\ MC samples (this includes ``fake'' tracks, as well as tracks that are matched to secondary particles), are together less than 2\% in the entire \pttrk\ range under study in both \pp\ and \pbpb\ collisions.  
 
