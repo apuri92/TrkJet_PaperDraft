@@ -53,37 +53,27 @@
   \endentry
 
   \entry{Busza:2018rrf}{article}{}
-    \name{author}{3}{}{%
-      {{hash=BW}{%
-         family={Busza},
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={{Busza, Wit and Rajagopal, Krishna and van der Schee, Wilke}},
          family_i={B\bibinitperiod},
-         given={Wit},
-         given_i={W\bibinitperiod},
-      }}%
-      {{hash=RK}{%
-         family={Rajagopal},
-         family_i={R\bibinitperiod},
-         given={Krishna},
-         given_i={K\bibinitperiod},
-      }}%
-      {{hash=vdSW}{%
-         prefix={van\bibnamedelima der},
-         prefix_i={v\bibinitperiod\bibinitdelim d\bibinitperiod},
-         family={Schee},
-         family_i={S\bibinitperiod},
-         given={Wilke},
-         given_i={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{BWRKSWvd1}
-    \strng{fullhash}{BWRKSWvd1}
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1146/annurev-nucl-101917-020852
+    \endverb
     \verb{eprint}
     \verb 1802.04801
     \endverb
-    \field{title}{{Heavy Ion Collisions: The Big Picture, and the Big
-  Questions}}
+    \field{number}{1}
+    \field{pages}{339\bibrangedash 376}
+    \field{title}{Heavy Ion Collisions: The Big Picture and the Big Questions}
+    \field{volume}{68}
+    \field{journaltitle}{Annual Review of Nuclear and Particle Science}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ph}
     \field{year}{2018}
@@ -375,6 +365,9 @@
     \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-011-1795-y
+    \endverb
     \verb{eprint}
     \verb 1109.5816
     \endverb
@@ -427,12 +420,15 @@
     \strng{fullhash}{C1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP06(2012)160
+    \endverb
     \verb{eprint}
     \verb 1204.3170
     \endverb
     \field{pages}{160}
-    \field{title}{{Shape, Transverse Size, and Charged Hadron Multiplicity of
-  Jets in pp Collisions at 7 TeV}}
+    \field{title}{{Shape, transverse size, and charged hadron multiplicity of
+  jets in pp collisions at 7 TeV}}
     \field{volume}{06}
     \field{journaltitle}{JHEP}
     \field{eprinttype}{arXiv}
@@ -771,7 +767,7 @@
     \endverb
     \field{number}{22}
     \field{pages}{222002}
-    \field{title}{{Angular structure of the in-medium QCD cascade}}
+    \field{title}{{Angular Structure of the In-Medium QCD Cascade}}
     \field{volume}{114}
     \field{journaltitle}{Phys. Rev. Lett.}
     \field{eprinttype}{arXiv}
@@ -893,8 +889,8 @@
     \verb 1609.05842
     \endverb
     \field{pages}{135}
-    \field{title}{{Angular Structure of Jet Quenching Within a Hybrid
-  Strong/Weak Coupling Model}}
+    \field{title}{{Angular structure of jet quenching within a hybrid
+  strong/weak coupling model}}
     \field{volume}{03}
     \field{journaltitle}{JHEP}
     \field{eprinttype}{arXiv}
@@ -1014,12 +1010,15 @@
     \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-017-4852-3
+    \endverb
     \verb{eprint}
     \verb 1611.09661
     \endverb
     \field{number}{5}
     \field{pages}{317}
-    \field{title}{{Performance of the ATLAS Trigger System in 2015}}
+    \field{title}{{Performance of the ATLAS trigger system in 2015}}
     \field{volume}{C77}
     \field{journaltitle}{Eur. Phys. J.}
     \field{eprinttype}{arXiv}
@@ -1159,7 +1158,7 @@
     \verb 1410.3012
     \endverb
     \field{pages}{159\bibrangedash 177}
-    \field{title}{{An Introduction to PYTHIA 8.2}}
+    \field{title}{{An introduction to PYTHIA 8.2}}
     \field{volume}{191}
     \field{journaltitle}{Comput. Phys. Commun.}
     \field{eprinttype}{arXiv}
@@ -1218,7 +1217,7 @@
   \entry{Agostinelli:2002hh}{article}{}
     \name{author}{1}{}{%
       {{hash=G}{%
-         family={{GEANT4 Collaboration, S. Agostinelli et al.}},
+         family={{GEANT4 Collaboration}},
          family_i={G\bibinitperiod},
       }}%
     }
@@ -1230,9 +1229,9 @@
     \verb 10.1016/S0168-9002(03)01368-8
     \endverb
     \field{pages}{250\bibrangedash 303}
-    \field{title}{{GEANT4: A simulation toolkit}}
-    \field{volume}{506}
-    \field{journaltitle}{Nucl.~Instrum.~Meth.~A}
+    \field{title}{{GEANT4 - a simulation toolkit}}
+    \field{volume}{A506}
+    \field{journaltitle}{Nucl. Instrum. Meth.}
     \field{year}{2003}
   \endentry
 
@@ -1386,8 +1385,8 @@
     \endverb
     \field{number}{10}
     \field{pages}{673}
-    \field{title}{{Performance of the ATLAS Track Reconstruction Algorithms in
-  Dense Environments in LHC Run 2}}
+    \field{title}{{Performance of the ATLAS track reconstruction algorithms in
+  dense environments in LHC Run 2}}
     \field{volume}{C 77}
     \field{journaltitle}{Eur. Phys. J.}
     \field{eprinttype}{arXiv}
@@ -1700,24 +1699,6 @@
     \field{volume}{C68}
     \field{journaltitle}{Z. Phys.}
     \field{year}{1995}
-  \endentry
-
-  \entry{ATL-GEN-PUB-2016-002}{booklet}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         family_i={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A2}
-    \strng{fullhash}{A2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{{ATL-GEN-PUB-2016-002}}
-    \field{title}{{ATLAS Computing Acknowledgements}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/2202407
-    \endverb
   \endentry
 \endsortlist
 \endinput
