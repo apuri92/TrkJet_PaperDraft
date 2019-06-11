@@ -53,14 +53,30 @@
   \endentry
 
   \entry{Busza:2018rrf}{article}{}
-    \name{author}{1}{}{%
-      {{hash=B}{%
-         family={{Busza, Wit and Rajagopal, Krishna and van der Schee, Wilke}},
+    \name{author}{3}{}{%
+      {{hash=BW}{%
+         family={Busza},
          family_i={B\bibinitperiod},
+         given={Wit},
+         given_i={W\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Rajagopal},
+         family_i={R\bibinitperiod},
+         given={Krishna},
+         given_i={K\bibinitperiod},
+      }}%
+      {{hash=vdSW}{%
+         prefix={van\bibnamedelima der},
+         prefix_i={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Schee},
+         family_i={S\bibinitperiod},
+         given={Wilke},
+         given_i={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{B1}
-    \strng{fullhash}{B1}
+    \strng{namehash}{BWRKSWvd1}
+    \strng{fullhash}{BWRKSWvd1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -71,7 +87,8 @@
     \endverb
     \field{number}{1}
     \field{pages}{339\bibrangedash 376}
-    \field{title}{Heavy Ion Collisions: The Big Picture and the Big Questions}
+    \field{title}{{Heavy Ion Collisions: The Big Picture, and the Big
+  Questions}}
     \field{volume}{68}
     \field{journaltitle}{Annual Review of Nuclear and Particle Science}
     \field{eprinttype}{arXiv}
@@ -1699,6 +1716,24 @@
     \field{volume}{C68}
     \field{journaltitle}{Z. Phys.}
     \field{year}{1995}
+  \endentry
+
+  \entry{ATL-GEN-PUB-2016-002}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         family_i={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{{ATL-GEN-PUB-2016-002}}
+    \field{title}{{ATLAS Computing Acknowledgements}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2202407
+    \endverb
   \endentry
 \endsortlist
 \endinput
