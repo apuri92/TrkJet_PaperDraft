@@ -2,13 +2,12 @@
 % !TEX root = trkjet.tex
 
 The measurements presented here are performed using the ATLAS calorimeter, inner detector, trigger,
-and data acquisition systems~\cite{Aad:2008zzm}. 
+and data acquisition systems. 
 %The primary components used in the measurement of \Dptr\ distributions are the calorimeters and the inner detector.
 
 The calorimeter system consists of a sampling liquid-argon (LAr) electromagnetic (EM) calorimeter covering $|\eta|<3.2$, a
 steel--scintillator sampling hadronic calorimeter covering $|\eta| <1.7$, LAr hadronic calorimeters covering $1.5 < |\eta| < 3.2$, and
-two LAr forward calorimeters~(FCal) covering $3.1 < |\eta| <
-4.9$. 
+two LAr forward calorimeters~(FCal) covering $3.1 < |\eta| < 4.9$. 
 % and has a $\Delta
 %\eta \times \Delta \phi$ granularity of $0.1 \times
 %0.1$ for $|\eta| < 2.5$ and  $0.2 \times 0.2$ for $2.5 < |\eta| < 4.9$.\footnote{An 
@@ -18,7 +17,7 @@ The EM calorimeters are segmented longitudinally in shower depth into three
 layers with an additional pre-sampler layer. They
 have segmentation that varies with layer and pseudorapidity. 
 The hadronic calorimeters have three sampling layers longitudinal
-in shower depth.
+in shower depth \cite{Aad:2008zzm}.
 %The EM calorimeters have a granularity that varies with layer and pseudorapidity, but which is generally much finer than that of the hadronic calorimeter.
 
 The inner detector measures charged particles  within the pseudorapidity interval  $|\eta|<2.5$ using a combination of silicon pixel detectors, silicon microstrip detectors (SCT), and a straw-tube transition radiation tracker (TRT), all immersed in a 2~T axial magnetic field~\cite{Aad:2008zzm}. Each of the three detectors is composed of a barrel and two symmetric end-cap sections. The pixel detector is composed of four layers including the Insertable B-Layer~\cite{ibl1,ibl2}. The SCT barrel section contains four layers of modules with sensors on both sides, and each end-cap consists of nine layers of double-sided modules with radial strips. The TRT contains layers of staggered straws interleaved with fibers in the barrel and end-cap.
@@ -27,16 +26,16 @@ The inner detector measures charged particles  within the pseudorapidity interva
 %The inner detector measures charged particles  within the pseudorapidity interval  $|\eta|<2.5$ using a combination of silicon pixel detectors, silicon microstrip detectors (SCT), and a straw-tube transition radiation tracker (TRT), all immersed in a 2~T axial magnetic field~\cite{Aad:2008zzm}. Each of the three detectors is composed of a barrel and two symmetric end-cap sections. The pixel detector  is composed of four layers: the "insertable B-layer" (IBL)~\cite{ibl1,ibl2} and three layers  with a pixel size of $50~{ \mu \mathrm{m}} \, \times \, 400~{ \mu \mathrm{m}}$.  The  SCT barrel section contains four layers of modules with 80~$\mu {\mathrm m}$  pitch sensors on both sides and each end-cap consists of nine layers of double-sided modules with radial strips having a mean pitch of $80~\mathrm{\mu m}$. The two sides of each SCT layer in both the barrel and the end-caps have a relative stereo angle of 40~mrad. The TRT contains up to 73 (160) layers of staggered straws interleaved with fibres in the barrel (end-cap).
 
 The zero-degree calorimeters (ZDCs) are located symmetrically at $z = \pm140$~m and cover $|\eta| > 8.3$.
-The ZDCs use tungsten plates as absorbers, and quartz rods sandwiched between the tungsten plates as the active medium. In \PbPb\ collisions the ZDCs primarily measure ``spectator'' neutrons, that is neutrons that do not interact
+The ZDCs use tungsten plates as absorbers, and quartz rods sandwiched between the tungsten plates as the active medium. In \PbPb\ collisions the ZDCs primarily measure ``spectator'' neutrons. These are neutrons that do not interact
 hadronically when the incident nuclei collide. A ZDC coincidence trigger is implemented by requiring
 the pulse height from both ZDCs to be above a threshold to accept the single-neutron peak.
 
-This analysis uses the same trigger setup used in \cite{Aaboud:2018hpb}, and is briefly described below. A two-level trigger system is used to select the \PbPb\ and \pp\ collisions. The first level is based on custom electronics while the second level, the High Level Trigger (HLT), is based on software \cite{Aaboud:2016leb}. 
+This analysis uses the same trigger setup used in Ref.~\cite{Aaboud:2018hpb}, and is briefly described below. A two-level trigger system is used to select the \PbPb\ and \pp\ collisions. The first level is based on custom electronics while the second level, the High Level Trigger (HLT), is based on software \cite{Aaboud:2016leb}. 
 %The first one, a hardware-based trigger stage Level-1, is implemented with custom electronics. The next level is the software-based High Level Trigger (HLT) and is used to further reduce the accepted event rate. 
-Minimum-bias~(MB) events are recorded using a logical OR of two triggers: 1) total energy Level-1 trigger; 2) ZDC coincidence trigger at Level-1 and a veto on the total energy trigger, with the additional requirement of least one track in the HLT. The total-energy trigger required a total transverse energy measured in the calorimeter system to be greater than 50~\GeV.  Jet events are selected by the HLT, seeded by a jet identified by the Level-1 jet trigger in \pp\ collisions or by the total-energy trigger with a threshold of 50~\GeV\ in \PbPb\ collisions. The Level-1 jet trigger utilized in \pp\ collisions required a jet with transverse momentum greater than 20~\GeV.
-The HLT jet trigger used a jet reconstruction procedure similar to that in the offline
+Minimum-bias~(MB) events are recorded using a logical OR of two triggers: 1) total energy Level-1 trigger; 2) ZDC coincidence trigger at Level-1 and a veto on the total energy trigger, with the additional requirement of least one track in the HLT. The total-energy trigger requires a total transverse energy measured in the calorimeter system to be greater than 50~\GeV.  Jet events are selected by the HLT, seeded by a jet identified by the Level-1 jet trigger in \pp\ collisions or by the total-energy trigger with a threshold of 50~\GeV\ in \PbPb\ collisions. The Level-1 jet trigger utilized in \pp\ collisions requires a jet with transverse momentum greater than 20~\GeV.
+The HLT jet trigger uses a jet reconstruction procedure similar to that in the offline
 analysis as discussed in Section~\ref{sec:reconstruction}. 
-It selected events containing jets with a transverse energy 
+It selects events containing jets with a transverse energy 
 of at least 75~\GeV\ in \PbPb\ collisions and at least 
 85~\GeV\ in \pp\ collisions. The measurement is performed in the 
 jet transverse momentum range where the trigger is fully efficient.
