@@ -23,21 +23,40 @@ This resulting uncertainty in the track reconstruction efficiency is between
 The systematic uncertainty on the fakes and secondaries is 30\% in both collision systems~\cite{ATL-PHYS-PUB-2015-051}.  The contamination of fake tracks is less than 2\% and the resulting uncertainty in the \Dptr\ distributions is at most 5\%.
 An additional uncertainty takes into account a possible residual misalignment of the tracking detectors
 in \pp\ and \PbPb\ data-taking. The alignment in these datasets is checked \textit{in situ} with $Z\rightarrow \mu^{+}\mu^{-}$ events, and the track-\pT\-dependent uncertainty arises from the finite size of this sample. The resulting uncertainties in
-the \Dptr\ distributions are typically less than 0.1\%. An additional  uncertainty in the tracking efficiency due to the high local track density in the core of jets is 0.4\%~\cite{ATL-PHYS-PUB-2016-007} for all \ptjet\ ranges in this analysis. The uncertainty due to the track selection is evaluated by repeating the analysis with an additional requirement on the significance of the distance of closest approach of the track to the primary vertex. This uncertainty affects 
+the \Dptr\ distributions are typically less than 0.1\%. An additional  uncertainty in the tracking efficiency due to the high local track density in the core of jets is 0.4\%~\cite{ATL-PHYS-PUB-2016-007} for all \ptjet\ ranges in this analysis. The uncertainty due to the track selection is evaluated by repeating the analysis with an additional $3\sigma$ cut on the significance of the distance of closest approach of the track to the primary vertex. This uncertainty affects 
 the track reconstruction efficiencies, track momentum resolution, and rate of fake tracks. The resulting uncertainty typically varies between 1--2\%.
 Finally, the track-to-particle association requirements are varied. This variation affects the track reconstruction efficiency, track momentum resolution, and rate of fake tracks. The resulting systematic uncertainty is $\leq~0.1 \%$ on the \Dptr\ distributions. All track-related systematic uncertainties are added in quadrature and presented as the total tracking uncertainty. 
 
-The systematic uncertainty associated with the UE subtraction has two components: limited statistics of charged particles associated with a jet without a corresponding generator particle in the \pbpb\ MC, and a comparison to an alternative UE estimation done using the cone method. The cone method uses jet triggered events to estimate the background and is adapted from Refs. \cite{Aaboud:2018hpb, Aaboud:2017bzv}. A regular grid of 9 cones of size $R = 0.8$ is used to cover the inner detector region. Cones are excluded if they are within an angular distance of 1.6 to a reconstructed jet with $\ptjet > 90$ GeV or if they contain a charged particle with \mbox{$\pt > 10$ GeV}. This exclusion reduces biases from any hard processes. The resulting UE charged particle yields $\fd \nchUE^{\mathrm{Cone}}/ \fd \pTch$ are evaluated over the \mbox{1--10 GeV} range as a function of \pttrk, \ptjet, centrality, and \rvar, and are subsequently averaged over all cones. The UE uncertainty on the \Dptr\ distributions is less than 10\% for $\rvar < 0.4$ and sharply decreases with increasing charged-particle \pT. It  reaches a maximum of 40\% at the largest angular distances from the jet axis and is the dominant source of the systematic uncertainty for low charged-particle \pt\ at large \rvar. In particular, the component from the limited statistics dominates in the most central collisions, while the component from the alternative estimation method dominates elsewhere.
+The systematic uncertainty associated with the UE subtraction has two components: limited statistics
+of charged particles associated with a jet without a corresponding generator particle in the \pbpb\ MC Overlay,
+and a comparison to an alternative UE estimation done using the cone method. The cone method
+uses jet triggered events to estimate the background and is adapted from Refs. \cite{Aaboud:2018hpb, Aaboud:2017bzv}. A 
+regular grid of 9 cones of size $R = 0.8$ is used to cover the inner detector region. Cones are excluded
+if they are within an angular distance of 1.6 to a reconstructed jet with $\ptjet > 90$ GeV or if they
+contain a charged particle with \mbox{$\pt > 10$ GeV}. This exclusion reduces biases from any
+hard processes. The resulting UE charged particle yields $\fd \nchUE^{\mathrm{Cone}}/ \fd \pTch$ are 
+evaluated over the \mbox{1--10 GeV} range as a function of \pttrk, \ptjet, centrality, and \rvar, and are
+subsequently averaged over all cones. The UE uncertainty on the \Dptr\ distributions is less 
+than 10\% for $\rvar < 0.4$ and sharply decreases with increasing charged-particle \pT. It  reaches
+a maximum of 40\% at the largest angular distances from the jet axis and is the dominant 
+source of the systematic uncertainty for low \pt\ charged-particles at large \rvar. In 
+particular, the component from the limited statistics dominates in the most central collisions, while the component from the alternative estimation method dominates elsewhere.
 
 
-The systematic uncertainty on the unfolding procedure is estimated by generating the response matrices from the MC distributions without any reweighing to match shapes in data. The difference between the nominal \Dptr\ distribution and \Dptr\ unfolded with the un-reweighted response matrices is taken as the systematic uncertainty, and is 5--7\%.
+The systematic uncertainty on the unfolding procedure is estimated by generating response matrices from the MC distributions without the reweighting that matched the shapes of
+the charged-particle and jet distributions in data. The difference between the nominal \Dptr\ distribution and that unfolded with the un-reweighted response matrix is taken as the systematic uncertainty, and is 5--7\%.
 
 An additional uncertainty to account for possible residual limitations in the analysis procedure is assigned by evaluating the non-closure of the unfolded distributions in simulations. This is typically at the level of 4\%.
 
 The correlations between the various systematic components are considered in evaluating the \RDptr\ and $\Delta\Dptr$ distributions. The unfolding and non-closure uncertainties are taken to be uncorrelated between \pp\ and \pbpb\ collisions, while all others are taken to be correlated. For these, the \RDptr\ and $\Delta\Dptr$ distributions are re-evaluated by applying the variation to both collision systems; the resulting variations of the ratios from their central values are used as the correlated systematic uncertainty. 
 
 Examples of systematic uncertainties in the \Dptr\ distributions for jets in the 126--158~\GeV\ \ptjet\ 
-range measured in \pp\ and \pbpb\ collision systems are shown in Figure~\ref{fig:Systematics_Dpt}. The uncertainties on the \RDptr\ distributions are shown in Figure~\ref{fig:Systematics_RDpT}. It can be seen that the dominant systematic uncertainty on the \pbpb\ and the \RDptr\ distributions is from the UE subtraction. While it is less than 5\% for $r < 0.3$, it is approximately 40\% for charged particles with $\pt = 1$ GeV at $r = 0.8$. The uncertainties in the \pp\ system are smaller, with the dominant systematic uncertainty due to the tracking. This uncertainty is approximately 10\%  for $r < 0.1$ and decreases to less than 5\% at larger distances.
+range measured in \pp\ and \pbpb\ collision systems are shown in Figure~\ref{fig:Systematics_Dpt}. The 
+uncertainties on the \RDptr\ distributions are shown in Figure~\ref{fig:Systematics_RDpT}. It can be seen that 
+the dominant systematic uncertainty on the \pbpb\ and the \RDptr\ distributions is from the UE subtraction. 
+While it is less than 5\% for $r < 0.3$, it is approximately 40\% for charged particles with $\pt = 1$ GeV at $r = 0.8$. 
+The uncertainties in the \pp\ system are smaller with the dominant systematic uncertainty at low \pt\ being due to the tracking. 
+This is approximately 10\%  for $r < 0.1$ and decreases to less than 5\% at larger distances.
 
 
 \begin{figure}
