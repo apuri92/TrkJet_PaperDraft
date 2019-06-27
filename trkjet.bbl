@@ -1768,6 +1768,171 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Chesler2016}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CPM}{%
+         family={Chesler},
+         family_i={C\bibinitperiod},
+         given={Paul\bibnamedelima M.},
+         given_i={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Rajagopal},
+         family_i={R\bibinitperiod},
+         given={Krishna},
+         given_i={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CPMRK1}
+    \strng{fullhash}{CPMRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP05(2016)098
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{5}
+    \field{pages}{98}
+    \field{title}{On the evolution of jet energy and opening angle in strongly
+  coupled plasma}
+    \verb{url}
+    \verb https://doi.org/10.1007/JHEP05(2016)098
+    \endverb
+    \field{volume}{2016}
+    \field{journaltitle}{JHEP}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Hulcher:2017cpt}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HZ}{%
+         family={Hulcher},
+         family_i={H\bibinitperiod},
+         given={Zachary},
+         given_i={Z\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Pablos},
+         family_i={P\bibinitperiod},
+         given={Daniel},
+         given_i={D\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Rajagopal},
+         family_i={R\bibinitperiod},
+         given={Krishna},
+         given_i={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HZPDRK1}
+    \strng{fullhash}{HZPDRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1707.05245
+    \endverb
+    \field{title}{{Resolution Effects in the Hybrid Strong/Weak Coupling
+  Model}}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Chien:2015vja}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CYT}{%
+         family={Chien},
+         family_i={C\bibinitperiod},
+         given={Yang-Ting},
+         given_i={Y\bibinitperiod-T\bibinitperiod},
+      }}%
+      {{hash=EA}{%
+         family={Emerman},
+         family_i={E\bibinitperiod},
+         given={Alexander},
+         given_i={A\bibinitperiod},
+      }}%
+      {{hash=KZB}{%
+         family={Kang},
+         family_i={K\bibinitperiod},
+         given={Zhong-Bo},
+         given_i={Z\bibinitperiod-B\bibinitperiod},
+      }}%
+      {{hash=OG}{%
+         family={Ovanesyan},
+         family_i={O\bibinitperiod},
+         given={Grigory},
+         given_i={G\bibinitperiod},
+      }}%
+      {{hash=VI}{%
+         family={Vitev},
+         family_i={V\bibinitperiod},
+         given={Ivan},
+         given_i={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CYT+1}
+    \strng{fullhash}{CYTEAKZBOGVI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.93.074030
+    \endverb
+    \verb{eprint}
+    \verb 1509.02936
+    \endverb
+    \field{number}{7}
+    \field{pages}{074030}
+    \field{title}{{Jet Quenching from QCD Evolution}}
+    \field{volume}{93}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Kang:2017frl}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KZB}{%
+         family={Kang},
+         family_i={K\bibinitperiod},
+         given={Zhong-Bo},
+         given_i={Z\bibinitperiod-B\bibinitperiod},
+      }}%
+      {{hash=RF}{%
+         family={Ringer},
+         family_i={R\bibinitperiod},
+         given={Felix},
+         given_i={F\bibinitperiod},
+      }}%
+      {{hash=VI}{%
+         family={Vitev},
+         family_i={V\bibinitperiod},
+         given={Ivan},
+         given_i={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KZBRFVI1}
+    \strng{fullhash}{KZBRFVI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physletb.2017.03.067
+    \endverb
+    \verb{eprint}
+    \verb 1701.05839
+    \endverb
+    \field{pages}{242\bibrangedash 248}
+    \field{title}{{Inclusive production of small radius jets in heavy-ion
+  collisions}}
+    \field{volume}{769}
+    \field{journaltitle}{Phys. Lett. B}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2017}
+  \endentry
+
   \entry{Spousta:2015fca}{article}{}
     \name{author}{2}{}{%
       {{hash=SM}{%

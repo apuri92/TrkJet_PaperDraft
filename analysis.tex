@@ -53,7 +53,7 @@ The different panels represent the six centrality selections.}
 
 %The fraction of fake tracks is found to be below 2\% of the tracks that pass the selection in all track and jet kinematic regions in this analysis.
 
-To remove the effects of the bin migration due to the jet energy and track momentum resolution, the subtracted $\fd^2 \nchsub /\fd\pttrk \fd r$ distributions are corrected by a two-dimensional Bayesian unfolding~\cite{DAgostini:1994zf} in \pttrk\ and \ptjet\ as implemented in the RooUnfold package~\cite{Adye:2011gm}. 
+To remove the effects of the bin migration due to the jet energy and track momentum resolution, the subtracted $\fd^2 \nchsub /\fd\pttrk \fd r$ distributions are corrected by a two-dimensional Bayesian unfolding~\cite{DAgostini:1994zf} in \pttrk\ and \ptjet\ as implemented in the RooUnfold package~\cite{Adye:2011gm}.
 Two-dimensional unfolding is used because the calorimetric jet energy response depends on the fragmentation pattern of the jet~\cite{Aad:2011he}.
 Four-dimensional response matrices are created from the \pp\ and \pbpb\ MC samples using the generator-level and reconstructed \ptjet and the generator-level and reconstructed charged-particle \pttrk.
 They are corrected for tracking efficiencies and are evaluated in bins of \rvar\ and centrality.
@@ -64,8 +64,12 @@ A separate one-dimensional Bayesian unfolding is used to correct the measured \p
 The response matrices for both the one and two dimensional unfolding are reweighted such that the charged-particle and jet distributions match the shapes of the analogous distributions in the reconstructed data.
 
 An independent bin-by-bin unfolding procedure is also used to correct for migrations originating from the jet and track angular resolutions.
-Two corresponding \Dptr\ distributions are evaluated in MC samples, one using truth jets\footnote{Truth jets are reconstructed by applying the \antikt\ algorithm to stable final-state particles from MC generators like \PYTHIA. Particles are required to have a lifetime of $c\tau > 10$ mm and muons, neutrinos, and particles from pile-up activity are excluded.} and primary particles and the other using reconstructed jets and charged particles with their reconstructed \pt\ replaced by generator-level transverse momentum, \pTtrue.
+Two corresponding \Dptr\ distributions are evaluated in MC samples, one using truth jets\footnote{Truth jets are reconstructed by applying the \antikt\ algorithm to stable final-state particles from MC generators like \PYTHIA.
+Particles are required to have a lifetime of $c\tau > 10$ mm and muons, neutrinos, and particles from pile-up activity are excluded.}
+and primary particles and the other using reconstructed jets and charged particles with their reconstructed \pt\ replaced by generator-level transverse momentum, \pTtrue.
 The ratio of these two MC distributions provides a correction factor which is then applied to the data.
+These factors are at the level of approximately 5\% with variations up to 15\% for particles with $\pt > 4$ GeV, particularly near the jet edge.
+
 
 The final particle-level corrected distributions, normalized by the area of the annulus under question are defined as:
 

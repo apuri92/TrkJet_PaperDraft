@@ -32,21 +32,9 @@ cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/DeltaDpT_lowpt_int
 
 
 
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/DpT_dR_jet7_cent0.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/DpT_dR_jet7_cent1.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/DpT_dR_jet7_cent2.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/DpT_dR_jet7_cent3.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/DpT_dR_jet7_cent4.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/DpT_dR_jet7_cent5.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/DpT_dR_jet9_cent0.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/DpT_dR_jet9_cent5.pdf "$figures_results"
+cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/DpT_dR_jet*_cent*.pdf "$figures_results"
+cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_jet*_cent*.pdf "$figures_results"
 
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_jet7_cent0.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_jet7_cent3.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_jet7_cent5.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_jet9_cent0.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_jet9_cent3.pdf "$figures_results"
-cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_jet9_cent5.pdf "$figures_results"
 cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_trk3_trk6_cent0.pdf "$figures_results"
 cp -a "$local_area"/output_dev/unfold/output_pdf_nominal/conf/RDpT_dR_trk3_trk6_cent5.pdf "$figures_results"
 
