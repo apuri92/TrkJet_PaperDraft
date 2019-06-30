@@ -2,21 +2,20 @@
 
 % Put you own bibliography entries in this file
 
-@Article{Chesler2016,
-	author	=	"Chesler, Paul M. and Rajagopal, Krishna",
-	title	=	"On the evolution of jet energy and opening angle in strongly coupled plasma",
-	journal	=	"JHEP",
-	year	=	"2016",
-	month	=	"May",
-	day		=	"17",
-	volume	=	"2016",
-	number	=	"5",
-	pages	=	"98",
-	issn	=	"1029-8479",
-	doi		=	"10.1007/JHEP05(2016)098",
-	url		=	"https://doi.org/10.1007/JHEP05(2016)098",
+@article{Chesler2016,
+      author         = "Chesler, Paul M. and Rajagopal, Krishna",
+      title          = "{On the Evolution of Jet Energy and Opening Angle in
+                        Strongly Coupled Plasma}",
+      journal        = "JHEP",
+      volume         = "05",
+      year           = "2016",
+      pages          = "098",
+      doi            = "10.1007/JHEP05(2016)098",
+      eprint         = "1511.07567",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-th",
+      SLACcitation   = "%%CITATION = ARXIV:1511.07567;%%"
 }
-
 
 @article{Aad:2011sc,
       author         = "{ATLAS Collaboration}",
@@ -272,7 +271,7 @@
 
 @article{OPAL:1995ab,
       author         = "{OPAL Collaboration}",
-      title          = "{A Model independent measurement of quark and gluon jet
+      title          = "{A model independent measurement of quark and gluon jet
                         properties and differences}",
       collaboration  = "OPAL",
       journal        = "Z. Phys. C",
@@ -621,7 +620,6 @@
       doi            = "10.1088/1126-6708/2004/11/040",
       eprint         = "hep-ph/0409146",
       archivePrefix  = "arXiv",
-      primaryClass   = "hep-ph",
       reportNumber   = "BICOCCA-FT-04-11",
       SLACcitation   = "%%CITATION = HEP-PH/0409146;%%"
 }
@@ -720,17 +718,23 @@
       doi            = "10.1016/j.ppnp.2014.05.001",
       SLACcitation   = "%%CITATION = PPNPD,77,70;%%"
 }
+
 @article{Hulcher:2017cpt,
       author         = "Hulcher, Zachary and Pablos, Daniel and Rajagopal,
                         Krishna",
       title          = "{Resolution Effects in the Hybrid Strong/Weak Coupling
                         Model}",
-      year           = "2017",
+      journal        = "JHEP",
+      volume         = "03",
+      year           = "2018",
+      pages          = "010",
+      doi            = "10.1007/JHEP03(2018)010",
       eprint         = "1707.05245",
       archivePrefix  = "arXiv",
       primaryClass   = "hep-ph",
       SLACcitation   = "%%CITATION = ARXIV:1707.05245;%%"
 }
+
 @article{Khachatryan:2016jfl,
       author         = "{CMS Collaboration}",
       title          = "{Measurement of inclusive jet cross sections in $pp$ and
@@ -782,7 +786,7 @@
       author         = "Cacciari, Matteo and Salam, Gavin P. and Soyez, Gregory",
      title          = "{The \Antikt\ jet clustering algorithm}",
       journal        = "JHEP",
-      volume         = "0804",
+      volume         = "04",
       pages          = "063",
       doi            = "10.1088/1126-6708/2008/04/063",
       year           = "2008",
@@ -822,17 +826,15 @@
      SLACcitation   = "%%CITATION = NUIMA,A506,250;%%"
 }
 
-@article{Adye:2011gm,
+@Booklet{Adye:2011gm,
       author         = "Adye, Tim",
       title          = "{Unfolding algorithms and tests using RooUnfold}",
       year           = "2011",
-      journal        = "{Proceedings of the PHYSTAT 2011 Workshop, CERN-2011-006}",
-      doi            = "10.5170/CERN-2011-006.313",
       eprint         = "1105.1160",
       archivePrefix  = "arXiv",
-      primaryClass   = "physics.data-an",
-      SLACcitation   = "%%CITATION = ARXIV:1105.1160;%%"
+      primaryClass   = "physics.data-an"
 }
+
 @article{Khachatryan:2016tfj,
       author         = "{CMS Collaboration}",
       title          = "{Decomposing transverse momentum balance contributions
@@ -897,20 +899,24 @@
       reportNumber   = "CERN-PH-EP-2012-191",
       SLACcitation   = "%%CITATION = ARXIV:1210.6210;%%",
 }
-@article{ibl1,
-      author         = "{ATLAS Collaboration}",
-      title         = "{ATLAS Insertable B-Layer Technical Design Report}",
-      note         = "ATLAS-TDR-19",
-      url         = "http://cds.cern.ch/record/1291633",
-      year         = "2010"
+
+@Booklet{ibl1,
+    author         = "{ATLAS Collaboration}",
+    title          = "{ATLAS Insertable B-Layer Technical Design Report}",
+    howpublished   = "ATLAS-TDR-19",
+    url            = "https://cds.cern.ch/record/1291633",
+    year           = "2010",
+    related        = "ATLAS-TDR-2010-19-add",
+    relatedstring  = "Addendum:",
 }
+
 @article{ibl2,
-      author         = "{ATLAS Collaboration}",
-      title         = "{ATLAS Insertable B-Layer Technical Design Report Addendum}",
-      note         = "ATLAS-TDR-19-ADD-1",
-      url         = "http://cds.cern.ch/record/1451888",
-      year         = "2012"
+    author         = "{ATLAS Collaboration}",
+    howpublished   = "ATLAS-TDR-19-ADD-1",
+    url            = "https://cds.cern.ch/record/1451888",
+    year           = "2012",
 }
+
 
 @Booklet{HIjesnote,
       author         = "{ATLAS Collaboration}",
@@ -918,19 +924,16 @@
                        reconstructed using the ATLAS heavy ion jet algorithm}",
       howpublished  = "ATLAS-CONF-2015-016",
       year          = "2015",
-      url           = "http://cds.cern.ch/record/2008677",
+      url           = "https://cds.cern.ch/record/2008677",
 }
 
-@article{JERConfNote,
-      author         = "{ATLAS Collaboration}",
-      title          = "{Data-driven determination of the energy scale and
-                        resolution of jets reconstructed in the ATLAS calorimeters
-                        using dijet and multijet events at $\sqrt{s}=8$~TeV}",
-      note           = "ATLAS-CONF-2015-017",
-      reportNumber   = "ATLAS-CONF-2015-017, ATLAS-COM-CONF-2014-068",
-      url            = "https://cds.cern.ch/record/2008678",
-      SLACcitation   = "%%CITATION = ATLAS-CONF-2015-017 ETC.;%%",
-      year = "2015"
+
+@Booklet{JERConfNote,
+    author         = "{ATLAS Collaboration}",
+    title          = "{Data-driven determination of the energy scale and resolution of jets reconstructed in the ATLAS calorimeters using dijet and multijet events at $\sqrt{s}=8$~TeV}",
+    howpublished   = "{ATLAS-CONF-2015-017}",
+    url            = "https://cds.cern.ch/record/2008678",
+    year           = "2015",
 }
 @article{Run2jetpubnote,
       author         = "{ATLAS Collaboration}",
