@@ -42,16 +42,15 @@ The resulting systematic uncertainty is $\leq~0.1 \%$ on the \Dptr\ distribution
 All track-related systematic uncertainties are added in quadrature and presented as the total tracking uncertainty.
 
 
-The systematic uncertainty associated with the UE subtraction has two components: limited statistics of charged particles associated with a jet without a corresponding generator particle in the \pbpb\ MC Overlay, and a comparison to an alternative UE estimation done using the cone method.
+The systematic uncertainty associated with the UE subtraction has two components: limited statistics of charged particles associated with a jet without a corresponding generator particle in the \pbpb\ MC overlay, and a comparison to an alternative UE estimation done using the cone method.
 The cone method uses jet triggered events to estimate the background and is adapted from Refs.~\cite{Aaboud:2018hpb, Aaboud:2017bzv}.
 A regular grid of 9 cones of size $R = 0.8$ is used to cover the inner detector region.
 Cones are excluded if they are within an angular distance of 1.6 to a reconstructed jet with $\ptjet > 90$ GeV or if they contain a charged particle with \mbox{$\pt > 10$ GeV}.
 This exclusion reduces biases from any hard processes.
-The resulting UE charged particle yields $\fd \nchUE^{\mathrm{Cone}}/ \fd \pTch$ are evaluated over the \mbox{1--10 GeV} range as a function of \pttrk, \ptjet, centrality, and \rvar, and are subsequently averaged over all cones.
-Both of these sources of uncertainty combined as uncorrelated uncertainties.
-The combined UE uncertainty on the \Dptr\ distributions is less than 10\% for $\rvar < 0.4$ and sharply decreases with increasing charged-particle \pT.
-It reaches a maximum of 40\% at the largest angular distances from the jet axis and is the dominant source of the systematic uncertainty for low \pt\ charged-particles at large \rvar.
-This is because of the small signal to background ratio at large distances from the jet axis.
+The resulting UE charged particle yields $\fd n_{\mathrm{ch}}^{\mathrm{UE, Cone}} / \fd \pTch$ are evaluated over the \mbox{1--10 GeV} range as a function of \pttrk, \ptjet, centrality, and \rvar, and are subsequently averaged over all cones.
+Both of these sources of uncertainty are combined as uncorrelated uncertainties.
+The combined UE uncertainty on the \Dptr\ distributions is less than 10\% for $\rvar < 0.4$ and reaches a maximum of 40\% at the largest angular distances from the jet axis.
+It is the dominant source of the systematic uncertainty for low \pt\ charged-particles at large \rvar\ and sharply decreases with increasing charged-particle \pT.
 In particular, the component from the limited statistics dominates in the most central collisions, while the component from the alternative estimation method dominates elsewhere.
 
 
@@ -100,10 +99,8 @@ The systematic uncertainties due to JER, JES, UE, tracking, unfolding, and MC no
 \includegraphics[width=0.36\textwidth]{figures/systematics/RDpT_dR_sys_error_trk2_jet7_cent5} &
 \includegraphics[width=0.36\textwidth]{figures/systematics/RDpT_dR_sys_error_trk6_jet7_cent5} \\
 \end{tabular}}
-\caption{
-Relative size of the systematic uncertainties for \RDptr\ distributions for 0--10\% (top) and 60--80\% (bottom) \pbpb\ collisions, for tracks with $1.0 < \pt < 1.6$ \GeV\ (left) and $6.3 < \pt < 10.0$ \GeV\ (right), in jets with $126 < \ptjet < 158$ \GeV.
-The systematic uncertainties due to JES, JER, unfolding, UE contribution, MC non-closure, and tracking are shown along with the total systematic uncertainty from all sources.
-}
+\caption{Relative size of the systematic uncertainties for \RDptr\ distributions for 0--10\% (top) and 60--80\% (bottom) \pbpb\ collisions, for tracks with $1.0 < \pt < 1.6$ \GeV\ (left) and $6.3 < \pt < 10.0$ \GeV\ (right), in jets with $126 < \ptjet < 158$ \GeV.
+The systematic uncertainties due to JES, JER, unfolding, UE contribution, MC non-closure, and tracking are shown along with the total systematic uncertainty from all sources.}
 \label{fig:Systematics_RDpT}
 \end{figure}
 
