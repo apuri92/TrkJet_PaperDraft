@@ -26,8 +26,8 @@
 TEXLIVE  = 2016
 LATEX    = latex
 PDFLATEX = pdflatex
-# BIBTEX   = bibtex
-BIBTEX   = biber
+BIBTEX   = bibtex
+# BIBTEX   = biber
 DVIPS    = dvips
 DVIPDF   = dvipdf
 
@@ -38,7 +38,7 @@ BASENAME = trkjet
 #-------------------------------------------------------------------------------
 # Adjust this according to your top-level figures directory
 # This directory tree is used by the "make cleanepstopdf" command
-FIGSDIR  = figs
+FIGSDIR  = figures
 #-------------------------------------------------------------------------------
 
 # EPSTOPDFFILES = `find . -name \*eps-converted-to.pdf`
